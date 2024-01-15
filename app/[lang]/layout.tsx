@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import '../globals.css'
 import "bootstrap/dist/css/bootstrap.css"
 
 export const metadata: Metadata = {
@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export async function generateStaticParams() {
+  return [{ lang: 'uk' }, { lang: 'ru' }]
+}
+
+export default function Root({ children, params }: any) {
   return (
-    <html lang="en">
+      <html lang={params.lang}>
       <body>{children}</body>
-    </html>
+      </html>
   )
 }
