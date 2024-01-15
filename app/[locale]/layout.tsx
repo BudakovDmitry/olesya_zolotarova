@@ -1,0 +1,23 @@
+import type { Metadata } from 'next'
+import '../globals.css'
+import "bootstrap/dist/css/bootstrap.css"
+import {unstable_setRequestLocale} from 'next-intl/server';
+
+// export const metadata: Metadata = {
+//   title: 'Олеся Золотарьова - ПЕРЕЗАГРУЗКА',
+//   description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
+// }
+
+export async function generateStaticParams() {
+  return [{ locale: 'uk' }, { locale: 'ru' }]
+}
+
+export default function Root({ children, params }: any) {
+    unstable_setRequestLocale(params.locale);
+
+  return (
+      <html lang={params.locale}>
+      <body>{children}</body>
+      </html>
+  )
+}
