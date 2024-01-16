@@ -1,0 +1,33 @@
+@import './fonts';
+@import './variables';
+
+// UI
+@import 'ui/dropdown';
+
+// Blocks
+@import 'blocks/header';
+@import 'blocks/nav';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-family-primary;
+  background-color: $color-secondary;
+  overflow-x: hidden;
+}

@@ -1,0 +1,19 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    margin: 16px 0;
+    &_link {
+      font-family: $font-family-secondary;
+      color: $color-black;
+      font-size: 24px;
+    }
+  }
+
+  &__nav {
+
+  }
+}

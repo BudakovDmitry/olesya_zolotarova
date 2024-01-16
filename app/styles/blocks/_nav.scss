@@ -1,0 +1,17 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    &_item {
+      margin: 0 50px;
+    }
+
+    &_link {
+      color: $color-black;
+      font-family: $font-family-primary;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  }
+}
