@@ -1,8 +1,15 @@
-import type { Metadata } from 'next'
 import '../globals.css'
 import "bootstrap/dist/css/bootstrap.css"
-import {unstable_setRequestLocale} from 'next-intl/server';
+import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 
+
+export async function generateMetadata({params: {locale}}: any) {
+    const t = await getTranslations({locale, namespace: 'Home'});
+
+    return {
+        title: t('Олеся Золотарьова - ПЕРЕЗАВАНТАЖЕННЯ')
+    };
+}
 // export const metadata: Metadata = {
 //   title: 'Олеся Золотарьова - ПЕРЕЗАГРУЗКА',
 //   description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
@@ -17,7 +24,7 @@ export default function Root({ children, params }: any) {
 
   return (
       <html lang={params.locale}>
-      <body>{children}</body>
+        <body>{children}</body>
       </html>
   )
 }
