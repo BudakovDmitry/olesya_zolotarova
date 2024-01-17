@@ -3,10 +3,12 @@
 
 // UI
 @import 'ui/dropdown';
+@import 'ui/btn';
 
 // Blocks
 @import 'blocks/header';
 @import 'blocks/nav';
+@import 'blocks/main_section';
 
 * {
   margin: 0;

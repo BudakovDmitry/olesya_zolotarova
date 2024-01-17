@@ -9,5 +9,8 @@ const withNextIntl = require('next-intl/plugin')(
 );
 
 module.exports = withNextIntl({
-    output: 'export'
+    output: 'export',
+    images: {
+        unoptimized: true,
+    },
 });
