@@ -4,12 +4,14 @@
 // UI
 @import 'ui/dropdown';
 @import 'ui/btn';
+@import 'ui/title_section';
 
 // Blocks
 @import 'blocks/header';
 @import 'blocks/nav';
 @import 'blocks/main_section';
 @import 'blocks/statistics_section';
+@import 'blocks/about_me_section';
 
 * {
   margin: 0;

@@ -5,6 +5,8 @@ import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 import '../styles/main.scss'
 import Image from "next/image";
 import MainPhoto from '../../public/main_photo.jpg'
+import AboutMePhoto from '../../public/about_me_photo.jpg'
+import ListMarker from '../../public/list_marker.png'
 
 
 const Home = ({params: {locale}}: any) => {
@@ -30,7 +32,7 @@ const Home = ({params: {locale}}: any) => {
             </header>
             <main className='main'>
                 <section className='main_section'>
-                    <Image src={MainPhoto} alt="main_photo" className='main_section__photo' unoptimized />
+                    <Image src={MainPhoto} alt="Main photo" className='main_section__photo' unoptimized />
                     <div className="main_section__content container">
                         <div className="main_section__content_container">
                             <h2 className='main_section__subtitle'>Интенсив</h2>
@@ -58,6 +60,39 @@ const Home = ({params: {locale}}: any) => {
                             <div className="statistics_section__item">
                                 <div className="statistics_section__item_count">2000+</div>
                                 <p className="statistics_section__item_text">часов консультаций </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="about_me_section">
+                    <div className="container">
+                        <h2 className="title_section title_section-dark about_me_section__title_section">Обо мне</h2>
+                        <div className="about_me_section__content">
+                            <div className="about_me_section__image_block">
+                                <div className="about_me_section__image_bg"></div>
+                                <Image src={AboutMePhoto} alt="About me photo" className='about_me_section__image' unoptimized />
+                            </div>
+                            <div className="about_me_section__text_block">
+                                <p className="about_me_section__title">Здравствуйте, меня зовут Олеся Золотарева</p>
+                                <p className="about_me_section__subtitle">Я практикующий нутрициолог, диетолог, специалист по модификации образа жизни, натуропат.</p>
+                                <ul className="about_me_section__list">
+                                    <li className="about_me_section__list_item">
+                                        <Image src={ListMarker} alt="List marker" className='about_me_section__list_item_icon' unoptimized />
+                                        <span className='about_me_section__list_item_text'>Даю инструменты как стать здоровой</span>
+                                    </li>
+                                    <li className="about_me_section__list_item">
+                                        <Image src={ListMarker} alt="List marker" className='about_me_section__list_item_icon' unoptimized />
+                                        <span className='about_me_section__list_item_text'>Меняю пищевые привычки; научу как стать стройной и удержать вес</span>
+                                    </li>
+                                    <li className="about_me_section__list_item">
+                                        <Image src={ListMarker} alt="List marker" className='about_me_section__list_item_icon' unoptimized />
+                                        <span className='about_me_section__list_item_text'>Устраняю дефициты и хронические состояния</span>
+                                    </li>
+                                    <li className="about_me_section__list_item">
+                                        <Image src={ListMarker} alt="List marker" className='about_me_section__list_item_icon' unoptimized />
+                                        <span className='about_me_section__list_item_text'>Занимаюсь подбором персонализированного плана питания.</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

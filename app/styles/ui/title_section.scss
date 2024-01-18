@@ -1,0 +1,16 @@
+.title_section {
+  font-family: $font-family-secondary;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  text-align: center;
+
+  &-light {
+    color: #F3F3F3;
+  }
+
+  &-dark {
+    color: $color-black;
+  }
+}
