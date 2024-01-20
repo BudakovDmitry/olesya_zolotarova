@@ -1,0 +1,24 @@
+.participate_section {
+  position: relative;
+  &__text {
+    color: $color-black;
+    font-family: $font-family-primary;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    &_container {
+      padding: 34px 48px;
+      background-color: #E2DFD8;
+      position: relative;
+      top: -70px;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__btn {
+    margin: 0 auto 100px;
+  }
+}
