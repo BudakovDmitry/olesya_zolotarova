@@ -1,5 +1,8 @@
 import '../globals.css'
 import "bootstrap/dist/css/bootstrap.css"
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 
 

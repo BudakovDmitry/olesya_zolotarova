@@ -1,0 +1,42 @@
+.consultation_section {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(214,214,214,1) 50%, rgba(212,212,212,1) 100%);
+  &__photo {
+
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+  }
+
+  &__description {
+    color: #434343;
+    text-align: center;
+    font-family: $font-family-primary;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 70%;
+    margin: 0 auto 12px;
+  }
+
+  &__title {
+    color: $color-primary;
+    text-align: center;
+    font-family: $font-family-secondary;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 190%; /* 68.4px */
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+
+  &__link {
+    margin: 0 auto;
+  }
+}

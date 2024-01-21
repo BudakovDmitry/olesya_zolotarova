@@ -1,0 +1,105 @@
+.footer {
+  padding: 24px 0;
+  background-color: $color-black;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
+  &__center {
+    flex: 0 0 32%;
+    max-width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  &__right {
+    flex: 0 0 32%;
+    max-width: 32%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  &__logo {
+    margin-bottom: 60px;
+    &_link {
+      color: #F3F3F3;
+      font-family: $font-family-secondary;
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    &_separator {
+      color: #F3F3F3;
+      opacity: 0.4;
+      display: inline-block;
+      margin: 0 8px;
+    }
+   &_item {
+     color: #F3F3F3;
+     font-family: $font-family-primary;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 140%;
+   }
+  }
+
+  &__social {
+    &_text {
+      color: #F3F3F3;
+      font-family: $font-family-primary;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      opacity: 0.6;
+    }
+    &_link {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-color: $color-primary;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      position: relative;
+      transition: all 0.2s ease-out;
+      &:hover {
+        box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.2);
+      }
+      &:first-child {
+        margin-right: 20px;
+      }
+      &_container {
+        display: flex;
+        align-items: center;
+      }
+      &_icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &__copyright {
+    color: #F3F3F3;
+    font-family: $font-family-primary;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    opacity: 0.6;
+  }
+}
