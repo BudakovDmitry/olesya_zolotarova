@@ -1,0 +1,90 @@
+.tariffs_section {
+  &__title_section {
+    margin-bottom: 100px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__card {
+    background-color: $color-primary;
+    flex: 0 0 49%;
+    max-width: 49%;
+    border-radius: 49px;
+    padding: 60px 67px 53px;
+
+    &_list {
+      padding: 0;
+      &_item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+
+        &.disabled {
+          opacity: 0.4;
+          .tariffs_section__card_list_item_text {
+            text-decoration: line-through;
+          }
+        }
+        &_icon {
+          margin-right: 20px;
+        }
+        &_text {
+          color: #F3F3F3;
+          font-family: $font-family-primary;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 150%;
+          margin: 0;
+        }
+      }
+
+    }
+
+    &_title {
+      color: var(--bg, #F3F3F3);
+      font-family: $font-family-secondary;
+      font-size: 48px;
+      font-style: italic;
+      font-weight: 500;
+      letter-spacing: 1.44px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    &_price {
+      color: #F3F3F3;
+      font-family: $font-family-secondary;
+      font-style: italic;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 28px;
+
+      &_first {
+        font-size: 100px;
+      }
+      &_second {
+        font-size: 64px;
+      }
+
+      &_сurrency {
+        color: var(--bg, #F3F3F3);
+        font-family: $font-family-secondary;
+        font-size: 80px;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+      }
+    }
+
+    &_link {
+      margin: 0 auto;
+    }
+  }
+}
