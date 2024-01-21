@@ -1,0 +1,15 @@
+.reviews_section {
+  &__title_section {
+    margin-bottom: 90px;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 60px;
+    right: 20%;
+  }
+}

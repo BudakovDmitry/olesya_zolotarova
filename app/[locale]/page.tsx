@@ -536,7 +536,8 @@ const Home = ({params: {locale}}: any) => {
                                             </svg>
                                         </div>
 
-                                        <p className="tariffs_section__card_list_item_text">Возможность задавать вопросы</p>
+                                        <p className="tariffs_section__card_list_item_text">Возможность задавать
+                                            вопросы</p>
                                     </li>
                                     <li className="tariffs_section__card_list_item">
                                         <div className="tariffs_section__card_list_item_icon">
@@ -548,7 +549,8 @@ const Home = ({params: {locale}}: any) => {
                                             </svg>
                                         </div>
 
-                                        <p className="tariffs_section__card_list_item_text">Доступ к материалам 2 месяца</p>
+                                        <p className="tariffs_section__card_list_item_text">Доступ к материалам 2
+                                            месяца</p>
                                     </li>
                                     <li className="tariffs_section__card_list_item disabled">
                                         <div className="tariffs_section__card_list_item_icon">
@@ -563,13 +565,15 @@ const Home = ({params: {locale}}: any) => {
                                         <p className="tariffs_section__card_list_item_text">Личная консультация
                                             Олеси с разбором анализов и рекомендациями на 2 месяца</p></li>
                                 </ul>
-                                <h2 className="tariffs_section__card_price tariffs_section__card_price_first">1111 <span className='tariffs_section__card_price_сurrency'>₴</span></h2>
+                                <div className="tariffs_section__card_price tariffs_section__card_price_first"><span
+                                    className='tariffs_section__card_price_number'>1111</span> <span
+                                    className='tariffs_section__card_price_сurrency'>₴</span></div>
                                 <a href="#" className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
                             </div>
                             <div className="tariffs_section__card">
                                 <h4 className="tariffs_section__card_title">Premium</h4>
                                 <ul className="tariffs_section__card_list">
-                                    <li className="tariffs_section__card_list_item">
+                                <li className="tariffs_section__card_list_item">
                                         <div className="tariffs_section__card_list_item_icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34"
                                                  viewBox="0 0 34 34" fill="none">
@@ -625,10 +629,26 @@ const Home = ({params: {locale}}: any) => {
                                         <p className="tariffs_section__card_list_item_text">Личная консультация Олеси с
                                             разбором анализов и рекомендациями на 2 месяца</p></li>
                                 </ul>
-                                <h2 className="tariffs_section__card_price tariffs_section__card_price_second">5444 <span className='tariffs_section__card_price_сurrency'>₴</span></h2>
+                                <div className="tariffs_section__card_price tariffs_section__card_price_second"><span className='tariffs_section__card_price_number'>5444</span> <span className='tariffs_section__card_price_сurrency'>₴</span></div>
                                 <a href="#" className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className="reviews_section">
+                    <div className="container reviews_section__container">
+                        <h2 className="title_section title_section-dark reviews_section__title_section">Отзывы</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" className='reviews_section__bg' width="182" height="142" viewBox="0 0 182 142"
+                             fill="none">
+                            <g opacity="0.07">
+                                <path
+                                    d="M138.264 75.654C144.826 75.6317 151.273 73.9101 156.982 70.655C148.944 91.5926 135.611 110.055 118.304 124.216C117.314 125.036 116.494 126.045 115.891 127.184C115.288 128.324 114.914 129.572 114.791 130.856C114.667 132.141 114.796 133.438 115.171 134.673C115.545 135.907 116.158 137.056 116.973 138.052C117.789 139.048 118.791 139.873 119.924 140.48C121.056 141.087 122.296 141.463 123.573 141.587C124.85 141.711 126.138 141.581 127.365 141.205C128.592 140.828 129.733 140.212 130.724 139.391C166.208 110.379 181.999 70.2086 181.999 45.303C181.938 36.4968 179.33 27.8991 174.494 20.5596C169.657 13.2201 162.802 7.45636 154.765 3.97215C149.563 1.43651 143.866 0.0949521 138.087 0.0443687C132.999 -0.204457 127.915 0.588969 123.141 2.37655C118.368 4.16413 114.005 6.90862 110.317 10.4436C106.629 13.9786 103.693 18.2304 101.687 22.9413C99.6811 27.6522 98.6467 32.724 98.6467 37.8492C98.6467 42.9744 99.6811 48.0462 101.687 52.757C103.693 57.4679 106.629 61.7198 110.317 65.2547C114.005 68.7897 118.368 71.5342 123.141 73.3218C127.915 75.1094 132.999 75.9028 138.087 75.654L138.264 75.654Z"
+                                    fill="#496E0D"/>
+                                <path
+                                    d="M39.4391 75.6533C46.0025 75.639 52.4507 73.9169 58.1573 70.6543C50.1219 91.57 36.8244 110.026 19.5677 124.215C18.4876 124.998 17.5782 125.996 16.8956 127.146C16.2129 128.296 15.7715 129.575 15.5983 130.904C15.4252 132.232 15.524 133.582 15.8887 134.871C16.2535 136.159 16.8764 137.359 17.7192 138.396C18.5621 139.433 19.6069 140.286 20.7894 140.902C21.972 141.517 23.2672 141.883 24.5955 141.976C25.9237 142.069 27.2568 141.888 28.5128 141.443C29.7688 140.999 30.921 140.3 31.8986 139.39C67.3834 110.378 83.1741 70.208 83.1741 45.3023C83.132 36.5959 80.6002 28.0857 75.8809 20.7883C71.1616 13.4909 64.4544 7.71478 56.5605 4.15001C51.2271 1.54016 45.3697 0.196423 39.4391 0.222225C34.3519 -0.0266003 29.2674 0.766826 24.4939 2.55441C19.7205 4.34199 15.3576 7.08647 11.6697 10.6214C7.98182 14.1564 5.04579 18.4083 3.03969 23.1192C1.03359 27.8301 -0.000829696 32.9018 -0.000830144 38.027C-0.000830592 43.1522 1.03359 48.224 3.03969 52.9349C5.04579 57.6458 7.98181 61.8976 11.6697 65.4326C15.3576 68.9676 19.7205 71.7121 24.4939 73.4996C29.2674 75.2872 34.3519 76.0807 39.4391 75.8318L39.4391 75.6533Z"
+                                    fill="#496E0D"/>
+                            </g>
+                        </svg>
                     </div>
                 </section>
             </main>
