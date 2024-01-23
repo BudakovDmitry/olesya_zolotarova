@@ -19,6 +19,9 @@
   }
   &__green {
     color: $color-primary;
-    font-size: 96px;
+    font-size: 54px;
+    @include media-breakpoint-up(xl) {
+      font-size: 96px;
+    }
   }
 }

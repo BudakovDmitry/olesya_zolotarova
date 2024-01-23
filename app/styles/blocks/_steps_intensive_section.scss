@@ -1,9 +1,14 @@
 .steps_intensive_section {
-  margin-bottom: 140px;
-  &__title_section {
-    margin-bottom: 80px;
+  margin-bottom: 100px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 140px;
   }
-
+  &__title_section {
+    margin-bottom: 51px;
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 80px;
+    }
+  }
   &__list {
     padding: 0;
     &_item {
@@ -17,27 +22,48 @@
         align-items: center;
       }
       &_number {
-        min-width: 140px;
-        height: 140px;
+        min-width: 82px;
+        height: 82px;
         border: 1px solid $color-black;
         border-radius: 50%;
         position: relative;
-        margin-right: 60px;
+        margin-right: 10px;
+        @include media-breakpoint-up(xl) {
+          min-width: 140px;
+          height: 140px;
+          margin-right: 60px;
+        }
         &_icon {
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          &.desktop {
+            display: none;
+            @include media-breakpoint-up(xl) {
+              display: block;
+            }
+          }
+
+          &.mobile {
+            display: block;
+            @include media-breakpoint-up(xl) {
+              display: none;
+            }
+          }
         }
       }
       &_text {
         color: #252424;
         font-family: $font-family-primary;
-        font-size: 24px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 150%;
         text-transform: uppercase;
         margin: 0;
+        @include media-breakpoint-up(xl) {
+          font-size: 24px;
+        }
       }
     }
   }
