@@ -1,0 +1,18 @@
+.slider {
+  width: 335px;
+  margin: 0 auto;
+  @include media-breakpoint-up(xl) {
+    width: 606px;
+  }
+  &__slide {
+    width: 335px;
+    @include media-breakpoint-up(xl) {
+      width: 606px;
+    }
+
+    &_image {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

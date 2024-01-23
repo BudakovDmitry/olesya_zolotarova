@@ -1,7 +1,10 @@
 .reviews_section {
   margin-bottom: 160px;
   &__title_section {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 90px;
+    }
   }
 
   &__container {
@@ -9,8 +12,12 @@
   }
 
   &__bg {
-    position: absolute;
-    top: 60px;
-    right: 20%;
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: block;
+      position: absolute;
+      top: 60px;
+      right: 20%;
+    }
   }
 }

@@ -13,31 +13,26 @@ export default () => {
         slidesToScroll: 1,
     };
 
-    const sliderStyle = {
-        width: "606px", // Задайте бажану ширину тут
-        margin: "0 auto", // Це додає вирівнювання по центру, якщо потрібно
-    };
-
     return (
-        <div style={sliderStyle}>
+        <div className='slider'>
             <Slider {...settings}>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
-                <div style={{ width: 606 }}>
-                    <Image src={Review1} alt="Review 1" className='slick-image' unoptimized/>
+                <div className='slider__slide'>
+                    <Image src={Review1} alt="Review 1" className='slick-image slider__slide_image' unoptimized/>
                 </div>
             </Slider>
         </div>
