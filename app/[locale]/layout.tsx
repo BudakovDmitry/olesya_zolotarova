@@ -1,8 +1,7 @@
 import '../globals.css'
 import "bootstrap/dist/css/bootstrap.css"
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 
 
