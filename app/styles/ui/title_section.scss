@@ -1,10 +1,14 @@
 .title_section {
   font-family: $font-family-secondary;
-  font-size: 64px;
+  font-size: 36px;
   font-weight: 400;
-  letter-spacing: 1.92px;
+  letter-spacing: 1.08px;
   text-transform: uppercase;
   text-align: center;
+  @include media-breakpoint-up(xl) {
+    font-size: 64px;
+    letter-spacing: 1.92px;
+  }
 
   &-light {
     color: #F3F3F3;
