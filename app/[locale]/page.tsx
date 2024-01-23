@@ -5,6 +5,7 @@ import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 import '../styles/main.scss'
 import Image from "next/image";
 import MainPhoto from '../../public/main_photo.jpg'
+import MainPhotoMobile from '../../public/main_photo_mobile.jpg'
 import AboutMePhoto from '../../public/about_me_photo.jpg'
 import ListMarker from '../../public/list_marker.png'
 import ConsultationPhoto from '../../public/consultation_photo.jpg'
@@ -48,7 +49,7 @@ const Home = ({params: {locale}}: any) => {
                                 за 10 дней</p>
                             <div className="main_section__button_container">
                                 <a href="#" className='btn btn__primary main_section__button'>Учавстовать</a>
-                                <a href="#" className='btn btn__secondary main_section__button'>подробнее</a>
+                                <a href="#" className='btn btn__secondary main_section__button main_section__button_more'>подробнее</a>
                             </div>
                         </div>
                     </div>

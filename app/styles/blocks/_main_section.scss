@@ -1,49 +1,80 @@
 .main_section {
-  height: 810px;
-  background-color: #C1C7C5;
+  height: 760px;
+  background: url("../../../public/main_photo_mobile.jpg") no-repeat;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: start;
+  @include media-breakpoint-up(xl) {
+    background: #C1C7C5;
+    height: 810px;
+    align-items: center;
+  }
 
   &__content {
     position: relative;
     &_container {
-      max-width: 50%;
+      max-width: 100%;
       text-align: center;
+      margin-top: 60px;
+      @include media-breakpoint-up(xl) {
+        max-width: 50%;
+        margin-top: 0;
+      }
     }
   }
 
   &__photo {
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    
+    &_mobile {
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
+    }
   }
 
   &__title {
     color: #FFFFFF;
     font-family: $font-family-third;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 400;
-    letter-spacing: 2.4px;
+    letter-spacing: 1.2px;
     margin-bottom: 23px;
+    @include media-breakpoint-up(xl) {
+      font-size: 80px;
+      letter-spacing: 2.4px;
+    }
   }
 
   &__subtitle {
     color: #FFFFFF;
     font-family: $font-family-primary;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 300;
     text-transform: lowercase;
+    @include media-breakpoint-up(xl) {
+      font-size: 48px;
+    }
   }
 
   &__description {
     color: #F3F3F3;
     text-align: center;
     font-family: $font-family-primary;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    max-width: 80%;
-    margin: 0 auto 90px;
+    margin: 0 auto 24px;
+    @include media-breakpoint-up(xl) {
+      font-size: 24px;
+      max-width: 80%;
+      margin: 0 auto 90px;
+    }
   }
 
   &__button {
@@ -54,7 +85,16 @@
     }
 
     &:first-child {
-      margin-right: 19px;
+      @include media-breakpoint-up(xl) {
+        margin-right: 19px;
+      }
+    }
+
+    &_more {
+      display: none;
+      @include media-breakpoint-up(xl) {
+        display: flex;
+      }
     }
   }
 }
