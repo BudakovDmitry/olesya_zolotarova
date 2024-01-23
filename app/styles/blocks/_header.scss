@@ -5,15 +5,31 @@
     justify-content: space-between;
   }
   &__logo {
-    margin: 16px 0;
+    margin: 18px 0;
+    @include media-breakpoint-up(xl) {
+      margin: 16px 0;
+    }
     &_link {
-      font-family: $font-family-secondary;
       color: $color-black;
-      font-size: 24px;
+      font-family: $font-family-secondary;
+      font-size: 16px;
+      font-weight: 400;
+      @include media-breakpoint-up(xl) {
+        font-size: 24px;
+      }
     }
   }
 
   &__nav {
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: flex;
+    }
+  }
 
+  &__drawer {
+    @include media-breakpoint-up(xl) {
+      display: none;
+    }
   }
 }
