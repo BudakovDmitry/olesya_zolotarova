@@ -1,5 +1,8 @@
 .about_me_section {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 120px;
+  }
   &__content {
     display: flex;
     justify-content: space-between;

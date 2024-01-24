@@ -1,6 +1,9 @@
 .who_is_suitable_section {
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 200px;
+  }
 
   &__bg {
     position: absolute;
@@ -14,6 +17,10 @@
       top: -210px;
       left: -50px;
       z-index: -1;
+      display: none;
+      @include media-breakpoint-up(xl) {
+        display: block;
+      }
     }
   }
   &__title_section {
@@ -21,19 +28,27 @@
   }
 
   &__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 100px 0;
-    grid-template-areas:
+    display: flex;
+    flex-direction: column;
+
+
+    @include media-breakpoint-up(xl) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 100px 0;
+      grid-template-areas:
     "first first first first first first first first . . ."
     ". . second second second second second . . . ."
     ". . . . third third third third third third ."
     ". . . . . . fourth fourth fourth fourth fourth";
-
+    }
     &_item {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      @include media-breakpoint-up(xl) {
+        align-items: center;
+      }
       &.first {
         grid-area: first;
       }
@@ -48,15 +63,32 @@
       }
 
       &_number {
-        margin-right: 60px;
+        display: none;
+        @include media-breakpoint-up(xl) {
+          margin-right: 60px;
+          display: block;
+        }
+
+        &_mobile {
+          display: block;
+          margin-right: 20px;
+          @include media-breakpoint-up(xl) {
+            display: none;
+          }
+        }
       }
 
       &_text {
         color: $color-black;
         font-family: $font-family-primary;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 166%;
+        min-height: 150px;
+        @include media-breakpoint-up(xl) {
+          font-size: 24px;
+          min-height: 1px;
+        }
       }
     }
   }

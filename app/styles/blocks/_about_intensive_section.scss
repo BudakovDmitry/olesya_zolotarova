@@ -20,8 +20,18 @@
   }
 
   &__image {
-    display: block;
     margin: 0 auto 116px;
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: block;
+    }
+    &_mobile {
+      display: block;
+      margin: 0 auto 40px;
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
+    }
   }
 
   &__info {
