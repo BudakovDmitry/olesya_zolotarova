@@ -242,7 +242,7 @@ const Home = ({params: {locale}}: any) => {
                                         </g>
                                     </svg>
                                 </div>
-                                <div className="who_is_suitable_section__grid_item_number_mobile">
+                                <div className="who_is_suitable_section__grid_item_number_mobile last">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="87" height="63" viewBox="0 0 87 63"
                                          fill="none">
                                         <g opacity="0.5">
