@@ -21,7 +21,6 @@ import Drawer from "@/app/components/Drawer";
 const Home = ({params: {locale}}: any) => {
     unstable_setRequestLocale(locale);
     const t = useTranslations('Home');
-    const languages = ['uk', 'ru']
 
     return (
         <>
@@ -35,10 +34,10 @@ const Home = ({params: {locale}}: any) => {
                             <li className='nav__list_item'><a className='nav__list_link' href="#">Тарифы</a></li>
                             <li className='nav__list_item'><a className='nav__list_link' href="#">Контакты</a></li>
                         </ul>
-                        <LanguageSwitcher options={languages} />
+                        <LanguageSwitcher />
                     </nav>
                     <div className="header__drawer">
-                        <Drawer languages={languages} />
+                        <Drawer />
                     </div>
                 </div>
             </header>

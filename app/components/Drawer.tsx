@@ -9,7 +9,7 @@ import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 
 type Anchor = 'top';
 
-const TemporaryDrawer = ({ languages }: any) => {
+const TemporaryDrawer = () => {
     const [state, setState] = React.useState({
         top: false,
     });
@@ -30,18 +30,17 @@ const TemporaryDrawer = ({ languages }: any) => {
 
     const list = (anchor: Anchor) => (
         <Box
-            sx={{width: 'auto', padding: '32px 17px 32px 23px', backgroundColor: '#F3F3F3', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
+            sx={{width: 'auto', padding: '32px 17px 60px 23px', backgroundColor: '#F3F3F3', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
             role="presentation"
-            onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <ul className='nav__list_mobile'>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#">Обо мне</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#">Про интенсив</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#">Тарифы</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#">Контакты</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Обо мне</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Про интенсив</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Тарифы</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Контакты</a></li>
             </ul>
-            <LanguageSwitcher languages={languages} />
+            <LanguageSwitcher />
         </Box>
     );
 
