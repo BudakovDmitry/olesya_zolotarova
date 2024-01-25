@@ -12,6 +12,8 @@ import ConsultationPhoto from '../../public/consultation_photo.jpg'
 import AboutIntensiveBG from '../../public/about_intensive_bg.svg'
 import AboutIntensive from '../../public/about_intensive.png'
 import AboutIntensiveMobile from '../../public/about_intensive_mobile.png'
+import AboutIntensiveBg from '../../public/about_intensive_bg.png'
+import AboutIntensiveBgMobile from '../../public/about_intensive_bg_mobile.png'
 import Reviews from "@/app/components/Reviews";
 import Drawer from "@/app/components/Drawer";
 
@@ -261,15 +263,32 @@ const Home = ({params: {locale}}: any) => {
                 </section>
                 <section className="about_intensive_section">
                     <div className="container">
+                        <Image src={AboutIntensiveBg} alt="About intensive background"
+                               className='about_intensive_section__bg'
+                               unoptimized/>
+                        <Image src={AboutIntensiveBgMobile} alt="About intensive background"
+                               className='about_intensive_section__bg_mobile'
+                               unoptimized/>
                         <h2 className="title_section title_section-light about_intensive_section__title_section">Про
                             интенсив</h2>
                         <p className="about_intensive_section__description">
-                            На Интенсиве Перезагрузка за 10 дней вы получите всю необходимую информацию:
+                            На Интенсиве <span
+                            className='about_intensive_section__description_upper'>Перезагрузка</span> за 10 дней вы
+                            получите всю необходимую информацию:
                         </p>
                         <Image src={AboutIntensive} alt="About intensive" className='about_intensive_section__image'
                                unoptimized/>
                         <Image src={AboutIntensiveMobile} alt="About intensive"
                                className='about_intensive_section__image_mobile' unoptimized/>
+                        <p className="about_intensive_section__description_mobile">
+                            Как избавится от привычек, убивающих ваше здоровье
+                        </p>
+                        <p className="about_intensive_section__description_mobile">
+                            Как составить рацион питания, который повысит уровень энергии и качеств
+                        </p>
+                        <p className="about_intensive_section__description_mobile last">
+                            Как снизить вес
+                        </p>
                         <div className="about_intensive_section__info_container">
                             <p className="about_intensive_section__info_text">После прохождения Интенсива у вас отпадет
                                 необходимость гуглить и искать какую-либо информацию по этим темам, я дам вам в легкой и
