@@ -9,13 +9,14 @@ export async function generateMetadata({params: {locale}}: any) {
     const t = await getTranslations({locale, namespace: 'Home'});
 
     return {
-        title: t('Олеся Золотарьова - ПЕРЕЗАВАНТАЖЕННЯ')
+        title: t('Олеся Золотарьова - ПЕРЕЗАВАНТАЖЕННЯ'),
+        description: t('Перезагрузите свои привычки и питание со мной всего за 10 дней'),
+        openGraph: {
+            title: t('Олеся Золотарьова - ПЕРЕЗАВАНТАЖЕННЯ'),
+            description: t('Перезагрузите свои привычки и питание со мной всего за 10 дней')
+        }
     };
 }
-// export const metadata: Metadata = {
-//   title: 'Олеся Золотарьова - ПЕРЕЗАГРУЗКА',
-//   description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
-// }
 
 export async function generateStaticParams() {
   return [{ locale: 'uk' }, { locale: 'ru' }]
