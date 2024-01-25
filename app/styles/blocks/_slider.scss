@@ -6,8 +6,12 @@
   }
   &__slide {
     width: 335px;
+    min-height: 190px;
+    display: flex!important;
+    align-items: center;
     @include media-breakpoint-up(xl) {
       width: 606px;
+      min-height: 340px;
     }
 
     &_image {

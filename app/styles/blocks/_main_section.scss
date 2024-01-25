@@ -3,7 +3,7 @@
   background: url("../../../public/main_photo_mobile.jpg") 0 0/100% auto no-repeat;
   position: relative;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   @include media-breakpoint-up(xl) {
     background: #C1C7C5;
     height: 810px;
