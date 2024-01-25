@@ -57,9 +57,16 @@
           }
         }
         &_icon {
-          margin-right: 12px;
+          display: none;
           @include media-breakpoint-up(xl) {
+            display: block;
             margin-right: 20px;
+          }
+          &_mobile {
+            margin-right: 12px;
+            @include media-breakpoint-up(xl) {
+              display: none;
+            }
           }
         }
         &_text {
