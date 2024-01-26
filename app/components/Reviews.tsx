@@ -10,7 +10,7 @@ import Review4 from '../../public/review_4.jpg'
 import Review5 from '../../public/review_5.jpg'
 
 
-export default () => {
+const Reviews = () => {
     const settings = {
         dots: true,
         infinite: false,
@@ -43,3 +43,5 @@ export default () => {
         </div>
     );
 };
+
+export default Reviews;
