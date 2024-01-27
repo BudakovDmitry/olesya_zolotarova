@@ -54,6 +54,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer__right">
+                        <a href="#header" className="footer__top_button">
+                            <svg width="14" height="16" className='footer__top_button_icon' viewBox="0 0 14 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 16L7 2M7 2L1 8M7 2L13 8" stroke="#252424" stroke-width="1.5"/>
+                            </svg>
+                        </a>
                         <a href="#" className="footer__copyright">© 2024 — Budakov Dmytro</a>
                     </div>
                 </div>
