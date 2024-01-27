@@ -39,7 +39,7 @@ const AboutMeSection = () => {
                         initial={{x: 700, opacity: 0}}
                         whileInView={{x: 0, opacity: 1}}
                         transition={{ease: "easeOut", duration: 1}}
-                        viewport={{ once: true }}
+                        viewport={{once: true}}
                     >
                         <h2 className="title_section title_section-dark about_me_section__title_section">Обо мне</h2>
                     </motion.div>
@@ -54,31 +54,74 @@ const AboutMeSection = () => {
                             </motion.div>
                         </div>
                         <div className="about_me_section__text_block">
-                            <p className="about_me_section__title">Здравствуйте, меня зовут Олеся Золотарева</p>
-                            <p className="about_me_section__subtitle">Я практикующий нутрициолог, диетолог,
-                                специалист по модификации образа жизни, натуропат.</p>
+                            <motion.div
+                                initial={{opacity: 0}}
+                                whileInView={{opacity: 1}}
+                                transition={{ease: "easeOut", duration: 1}}
+                                viewport={{once: true}}
+                            >
+                                <p className="about_me_section__title">Здравствуйте, меня зовут Олеся Золотарева</p>
+                                <p className="about_me_section__subtitle">Я практикующий нутрициолог, диетолог,
+                                    специалист по модификации образа жизни, натуропат.</p>
+                            </motion.div>
                             <ul className="about_me_section__list">
+                                <motion.div
+                                    initial={{x: 700, opacity: 0}}
+                                    whileInView={{x: 0, opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                >
                                 <li className="about_me_section__list_item">
-                                    <Image src={ListMarker} alt="List marker"
-                                           className='about_me_section__list_item_icon' unoptimized/>
-                                    <span
-                                        className='about_me_section__list_item_text'>Даю инструменты как стать здоровой</span>
+
+                                        <Image src={ListMarker} alt="List marker"
+                                               className='about_me_section__list_item_icon' unoptimized/>
+                                        <span
+                                            className='about_me_section__list_item_text'>Даю инструменты как стать здоровой</span>
+
                                 </li>
+                                </motion.div>
+                                <motion.div
+                                    initial={{x: 700, opacity: 0}}
+                                    whileInView={{x: 0, opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                >
                                 <li className="about_me_section__list_item">
-                                    <Image src={ListMarker} alt="List marker"
-                                           className='about_me_section__list_item_icon' unoptimized/>
-                                    <span className='about_me_section__list_item_text'>Меняю пищевые привычки; научу как стать стройной и удержать вес</span>
+
+                                        <Image src={ListMarker} alt="List marker"
+                                               className='about_me_section__list_item_icon' unoptimized/>
+                                        <span className='about_me_section__list_item_text'>Меняю пищевые привычки; научу как стать стройной и удержать вес</span>
+
                                 </li>
+                                </motion.div>
+                                <motion.div
+                                    initial={{x: 700, opacity: 0}}
+                                    whileInView={{x: 0, opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                >
                                 <li className="about_me_section__list_item">
-                                    <Image src={ListMarker} alt="List marker"
-                                           className='about_me_section__list_item_icon' unoptimized/>
-                                    <span className='about_me_section__list_item_text'>Устраняю дефициты и хронические состояния</span>
+
+                                        <Image src={ListMarker} alt="List marker"
+                                               className='about_me_section__list_item_icon' unoptimized/>
+                                        <span className='about_me_section__list_item_text'>Устраняю дефициты и хронические состояния</span>
+
                                 </li>
+                                </motion.div>
+                                <motion.div
+                                    initial={{x: 700, opacity: 0}}
+                                    whileInView={{x: 0, opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                >
                                 <li className="about_me_section__list_item">
-                                    <Image src={ListMarker} alt="List marker"
-                                           className='about_me_section__list_item_icon' unoptimized/>
-                                    <span className='about_me_section__list_item_text'>Занимаюсь подбором персонализированного плана питания.</span>
+
+                                        <Image src={ListMarker} alt="List marker"
+                                               className='about_me_section__list_item_icon' unoptimized/>
+                                        <span className='about_me_section__list_item_text'>Занимаюсь подбором персонализированного плана питания.</span>
+
                                 </li>
+                                </motion.div>
                             </ul>
                         </div>
                     </div>
