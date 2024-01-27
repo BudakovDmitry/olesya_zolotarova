@@ -27,10 +27,17 @@ const ReviewsSection = () => {
                             fill="#496E0D"/>
                     </g>
                 </svg>
-                <Reviews/>
+                <motion.div
+                    initial={{opacity: 0}}
+                    whileInView={{opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1}}
+                    viewport={{once: true}}
+                >
+                    <Reviews/>
+                </motion.div>
             </div>
         </section>
-    )
+)
 }
 
 export default ReviewsSection;

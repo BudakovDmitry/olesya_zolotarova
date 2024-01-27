@@ -13,7 +13,7 @@
     padding: 0;
     &_item {
       border-top: 1px solid $color-black;
-      &:last-child {
+      &.last {
         border-bottom: 1px solid $color-black;
       }
 
