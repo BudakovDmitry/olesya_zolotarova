@@ -6,15 +6,26 @@ const StepsIntensiveSection = () => {
     return (
         <section className="steps_intensive_section">
             <div className="container">
-                <motion.div
+                <motion.h2
                     initial={{x: -300, opacity: 0}}
                     whileInView={{x: 0, opacity: 1}}
                     transition={{ease: 'easeOut', duration: 1}}
                     viewport={{once: true}}
+                    className="title_section title_section-dark steps_intensive_section__title_section"
                 >
-                    <h2 className="title_section title_section-dark steps_intensive_section__title_section">За <span
-                        className="title_section__green">10</span> дней интенсива Вы:</h2>
-                </motion.div>
+                    За <span
+                    className="title_section__green">10</span> дней интенсива Вы:
+                </motion.h2>
+                <motion.h2
+                    initial={{opacity: 0}}
+                    whileInView={{opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1.5}}
+                    viewport={{once: true}}
+                    className="title_section title_section-dark steps_intensive_section__title_section_mobile"
+                >
+                    За <span
+                    className="title_section__green">10</span> дней интенсива Вы:
+                </motion.h2>
             </div>
             <ul className="steps_intensive_section__list">
                 <motion.div

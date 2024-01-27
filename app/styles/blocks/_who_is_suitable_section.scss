@@ -24,7 +24,17 @@
     }
   }
   &__title_section {
+    display: none;
     margin-bottom: 90px;
+    @include media-breakpoint-up(xl) {
+      display: block;
+    }
+    &_mobile {
+      margin-bottom: 90px;
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
+    }
   }
 
   &__grid {

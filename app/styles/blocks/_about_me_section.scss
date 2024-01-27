@@ -67,8 +67,18 @@
 
     &_section {
       margin-bottom: 50px;
+      display: none;
       @include media-breakpoint-up(xl) {
         margin-bottom: 70px;
+        display: block;
+      }
+
+      &_mobile {
+        margin-bottom: 50px;
+        @include media-breakpoint-up(xl) {
+          margin-bottom: 70px;
+          display: none;
+        }
       }
     }
   }

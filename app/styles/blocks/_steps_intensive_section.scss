@@ -5,8 +5,17 @@
   }
   &__title_section {
     margin-bottom: 51px;
+    display: none;
     @include media-breakpoint-up(xl) {
       margin-bottom: 80px;
+      display: block;
+    }
+    &_mobile {
+      margin-bottom: 51px;
+      @include media-breakpoint-up(xl) {
+        margin-bottom: 80px;
+        display: none;
+      }
     }
   }
   &__list {

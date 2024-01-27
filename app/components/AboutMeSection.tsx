@@ -35,14 +35,24 @@ const AboutMeSection = () => {
                 viewport={{once: true, amount: 0.8}}
             >
                 <div className="container">
-                    <motion.div
+                    <motion.h2
                         initial={{x: 700, opacity: 0}}
                         whileInView={{x: 0, opacity: 1}}
                         transition={{ease: "easeOut", duration: 1}}
                         viewport={{once: true}}
+                        className="title_section title_section-dark about_me_section__title_section"
                     >
-                        <h2 className="title_section title_section-dark about_me_section__title_section">Обо мне</h2>
-                    </motion.div>
+                        Обо мне
+                    </motion.h2>
+                    <motion.h2
+                        initial={{opacity: 0}}
+                        whileInView={{opacity: 1}}
+                        transition={{ease: "easeOut", duration: 1.5}}
+                        viewport={{once: true}}
+                        className="title_section title_section-dark about_me_section__title_section_mobile"
+                    >
+                        Обо мне
+                    </motion.h2>
                     <div className="about_me_section__content">
                         <div className="about_me_section__image_block">
                             <div className="about_me_section__image_bg"></div>

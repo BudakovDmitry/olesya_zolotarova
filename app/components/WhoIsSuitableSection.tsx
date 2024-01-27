@@ -15,15 +15,26 @@ const WhoIsSuitableSection = () => {
                     fill="#496E0D"/>
             </svg>
             <div className="container">
-                <motion.div
+                <motion.h2
                     initial={{x: 700, opacity: 0}}
                     whileInView={{x: 0, opacity: 1}}
                     transition={{ease: "easeOut", duration: 1}}
                     viewport={{once: true}}
+                    className="title_section title_section-dark who_is_suitable_section__title_section"
                 >
-                    <h2 className="title_section title_section-dark who_is_suitable_section__title_section">Кому
-                        подходит интенсив</h2>
-                </motion.div>
+                    Кому
+                    подходит интенсив
+                </motion.h2>
+                <motion.h2
+                    initial={{opacity: 0}}
+                    whileInView={{opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1.5}}
+                    viewport={{once: true}}
+                    className="title_section title_section-dark who_is_suitable_section__title_section_mobile"
+                >
+                    Кому
+                    подходит интенсив
+                </motion.h2>
                 <motion.div
                     initial={{opacity: 0}}
                     whileInView={{opacity: 1}}
