@@ -23,6 +23,20 @@
       height: 100%;
     }
 
+    &_animate {
+      &_container {
+        display: none;
+        @include media-breakpoint-up(xl) {
+          display: block;
+        }
+        &_mobile {
+          @include media-breakpoint-up(xl) {
+            display: none;
+          }
+        }
+      }
+    }
+
     &_bg {
       background-color: transparent;
       border: 1px solid $color-primary;
@@ -100,6 +114,49 @@
   &__list {
     list-style: none;
     padding: 0;
+    display: none;
+    @include media-breakpoint-up(xl) {
+      display: block;
+    }
+    &_mobile {
+      list-style: none;
+      padding: 0;
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
+      &_item {
+        display: flex;
+        align-items: flex-start;
+        @include media-breakpoint-up(xl) {
+          align-items: center;
+        }
+        &_icon {
+          margin-right: 16px;
+          width: 24px;
+          height: 24px;
+          margin-top: 5px;
+          @include media-breakpoint-up(xl) {
+            margin-top: 0;
+            margin-right: 29px;
+            width: 37px;
+            height: 37px;
+          }
+        }
+
+        &_text {
+          color: $color-black;
+          font-family: $font-family-primary;
+          font-size: 16px;
+          font-style: italic;
+          font-weight: 300;
+          line-height: 150%;
+          margin-bottom: 10px;
+          @include media-breakpoint-up(xl) {
+            font-size: 24px;
+          }
+        }
+      }
+    }
     &_item {
       display: flex;
       align-items: flex-start;
