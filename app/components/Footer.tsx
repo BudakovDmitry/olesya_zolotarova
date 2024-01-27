@@ -13,14 +13,14 @@ const Footer = () => {
             >
                 <div className="container footer__container">
                     <div className="footer__left">
-                        <div className="footer__logo"><a className='footer__logo_link' href="#">Олеся Золотарева</a>
+                        <div className="footer__logo"><a className='footer__logo_link' href="#header">Олеся Золотарева</a>
                         </div>
                         <div className="footer__nav">
-                            <a href="#" className="footer__nav_item">Обо мне</a>
+                            <a href="#about_me" className="footer__nav_item">Обо мне</a>
                             <span className='footer__nav_separator'>/</span>
-                            <a href="#" className="footer__nav_item">Про интенсив</a>
+                            <a href="#about_intensive" className="footer__nav_item">Про интенсив</a>
                             <span className='footer__nav_separator'>/</span>
-                            <a href="#" className="footer__nav_item">Тарифы</a>
+                            <a href="#tariffs" className="footer__nav_item">Тарифы</a>
                             <span className='footer__nav_separator'>/</span>
                         </div>
                     </div>

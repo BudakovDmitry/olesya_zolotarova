@@ -9,7 +9,7 @@ import AboutIntensiveMobile from "@/public/about_intensive_mobile.png";
 
 const AboutIntensiveSection = () => {
     return (
-        <section className="about_intensive_section">
+        <section id='about_intensive' className="about_intensive_section">
             <div className="container">
                 <Image src={AboutIntensiveBg} alt="About intensive background"
                        className='about_intensive_section__bg'

@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const ParticipateSection = () => {
     return (
-        <section className="participate_section">
+        <section id='participate' className="participate_section">
             <div className="container">
                 <motion.div
                     initial={{y: 300}}

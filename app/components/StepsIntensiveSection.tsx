@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const StepsIntensiveSection = () => {
     return (
-        <section className="steps_intensive_section">
+        <section id='steps_intensive' className="steps_intensive_section">
             <div className="container">
                 <motion.h2
                     initial={{x: -300, opacity: 0}}

@@ -35,9 +35,9 @@ const TemporaryDrawer = () => {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <ul className='nav__list_mobile'>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Обо мне</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Про интенсив</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Тарифы</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#about_me" onClick={toggleDrawer(anchor, false)}>Обо мне</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#about_intensive" onClick={toggleDrawer(anchor, false)}>Про интенсив</a></li>
+                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#tariffs" onClick={toggleDrawer(anchor, false)}>Тарифы</a></li>
                 <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#" onClick={toggleDrawer(anchor, false)}>Контакты</a></li>
             </ul>
             <LanguageSwitcher />

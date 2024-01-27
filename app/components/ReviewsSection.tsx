@@ -5,7 +5,7 @@ import Reviews from "@/app/components/Reviews";
 
 const ReviewsSection = () => {
     return (
-        <section className="reviews_section">
+        <section id='reviews' className="reviews_section">
             <div className="container reviews_section__container">
                 <motion.h2
                     initial={{x: 700, opacity: 0}}

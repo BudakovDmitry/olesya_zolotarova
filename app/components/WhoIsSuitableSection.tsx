@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const WhoIsSuitableSection = () => {
     return (
-        <section className="who_is_suitable_section">
+        <section id='who_is_suitable' className="who_is_suitable_section">
             <svg width="1212" height="1402" className='who_is_suitable_section__bg' viewBox="0 0 1212 1402"
                  fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path

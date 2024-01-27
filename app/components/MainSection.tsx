@@ -22,7 +22,7 @@ const MainSection = () => {
                             за 10 дней</p>
                         <div className="main_section__button_container">
                             <a href="#" className='btn btn__primary main_section__button'>Учавстовать</a>
-                            <a href="#"
+                            <a href="#about_intensive"
                                className='btn btn__secondary main_section__button main_section__button_more'>подробнее</a>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const TariffsSection = () => {
     return (
-        <section className="tariffs_section">
+        <section id='tariffs' className="tariffs_section">
             <div className="container">
                 <motion.h2
                     initial={{x: 700, opacity: 0}}

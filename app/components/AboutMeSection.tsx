@@ -27,7 +27,7 @@ const AboutMeSection = () => {
     };
 
     return (
-        <section className="about_me_section">
+        <section id='about_me' className="about_me_section">
             <motion.div
                 className="card-container"
                 initial="offscreen"
