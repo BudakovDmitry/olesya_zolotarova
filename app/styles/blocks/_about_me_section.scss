@@ -41,6 +41,7 @@
       @include media-breakpoint-up(xl) {
         width: auto;
         margin: 0 100px 0 17px;
+        min-width: 387px;
       }
     }
   }
