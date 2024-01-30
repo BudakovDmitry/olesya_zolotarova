@@ -67,15 +67,33 @@ const AboutIntensiveSection = () => {
                     <Image src={AboutIntensiveMobile} alt="About intensive"
                            className='about_intensive_section__image_mobile' unoptimized/>
                 </motion.div>
-                <p className="about_intensive_section__description_mobile">
+                <motion.p
+                    initial={{scale: 1.3, opacity: 0}}
+                    whileInView={{scale: 1, opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1, delay: 0.5}}
+                    viewport={{once: true}}
+                    className="about_intensive_section__description_mobile"
+                >
                     Как избавится от привычек, убивающих ваше здоровье
-                </p>
-                <p className="about_intensive_section__description_mobile">
+                </motion.p>
+                <motion.p
+                    initial={{scale: 1.3, opacity: 0}}
+                    whileInView={{scale: 1, opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1, delay: 1}}
+                    viewport={{once: true}}
+                    className="about_intensive_section__description_mobile"
+                >
                     Как составить рацион питания, который повысит уровень энергии и качеств
-                </p>
-                <p className="about_intensive_section__description_mobile last">
+                </motion.p>
+                <motion.p
+                    initial={{scale: 1.3, opacity: 0}}
+                    whileInView={{scale: 1, opacity: 1}}
+                    transition={{ease: "easeOut", duration: 1, delay: 1.5}}
+                    viewport={{once: true}}
+                    className="about_intensive_section__description_mobile last"
+                >
                     Как снизить вес
-                </p>
+                </motion.p>
                 <motion.div
                     initial={{y: 300}}
                     whileInView={{y: 0}}

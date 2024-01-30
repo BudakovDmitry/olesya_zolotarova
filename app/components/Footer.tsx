@@ -3,6 +3,9 @@
 import {motion} from "framer-motion"
 
 const Footer = () => {
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+
     return (
         <footer className="footer">
             <motion.div
@@ -60,7 +63,7 @@ const Footer = () => {
                                 <path d="M7 16L7 2M7 2L1 8M7 2L13 8" stroke="#252424" strokeWidth="1.5"/>
                             </svg>
                         </a>
-                        <a href="#" className="footer__copyright">© 2024 — Budakov Dmytro</a>
+                        <a href="#" className="footer__copyright">© {currentYear} — Budakov Dmytro</a>
                     </div>
                 </div>
             </motion.div>
