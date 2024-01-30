@@ -22,12 +22,16 @@
       font-size: 16px;
       font-weight: 300;
       text-transform: uppercase;
+      border: none;
+      background: none;
       &_mobile {
         color: $color-black;
         font-family: $font-family-primary;
         font-size: 16px;
         font-weight: 300;
         text-transform: uppercase;
+        border: none;
+        background: none;
       }
     }
   }
