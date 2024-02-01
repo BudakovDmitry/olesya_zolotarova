@@ -12,12 +12,26 @@ import Footer from "@/app/components/Footer";
 import Header from '@/app/components/Header';
 import StatisticsSection from "@/app/components/StatisticsSection";
 
+const navigationItems = [
+    {
+        title: 'Обо мне',
+        link: '#about_me'
+    },
+    {
+        title: 'Про интенсив',
+        link: '#about_intensive'
+    },
+    {
+        title: 'Тарифы',
+        link: '#tariffs'
+    },
+]
 
 const Home = () => {
 
     return (
         <>
-            <Header />
+            <Header navigationItems={navigationItems} />
             <main className='main'>
                 <MainSection />
                 <StatisticsSection />

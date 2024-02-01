@@ -3,6 +3,8 @@
 import { motion } from "framer-motion"
 import Image from "next/image";
 import ConsultationPhoto from "@/public/consultation_photo.jpg";
+import Link from "next/link";
+import ConsultationsPage from "@/app/consultations/page";
 
 const ConsultationSection = () => {
     return (
@@ -16,7 +18,7 @@ const ConsultationSection = () => {
                 <div className="container consultation_section__container">
                     <div className="consultation_section__text">
                         <p className="consultation_section__description">Также возможен формат <span className='consultation_section__description_bold'>персонального сопровождения</span> в решении вопросов по здоровью</p>
-                        <a href="#" className="btn btn__primary consultation_section__link">подробнее</a>
+                        <Link href="/consultations" className="btn btn__primary consultation_section__link">подробнее</Link>
                     </div>
                     <Image src={ConsultationPhoto} alt="Consultation photo" className='consultation_section__photo'
                            unoptimized/>

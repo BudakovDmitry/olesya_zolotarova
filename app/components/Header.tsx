@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 
-const Header = () => {
+const Header = ({navigationItems}: any) => {
     const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
 
     const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
@@ -36,12 +36,7 @@ const Header = () => {
                     <div className="header__logo"><a className='header__logo_link' href="#">Олеся Золотарева</a></div>
                     <nav className='header__nav nav'>
                         <ul className='nav__list'>
-                            <li className='nav__list_item'><a className='nav__list_link' href="#about_me">Обо мне</a>
-                            </li>
-                            <li className='nav__list_item'><a className='nav__list_link' href="#about_intensive">Про
-                                интенсив</a>
-                            </li>
-                            <li className='nav__list_item'><a className='nav__list_link' href="#tariffs">Тарифы</a></li>
+                            {navigationItems.map((item: any) => <li key={item.link} className='nav__list_item'><a className='nav__list_link' href={item.link}>{item.title}</a></li>)}
                             <li className='nav__list_item'>
                                 <button className='nav__list_link' aria-describedby={id}
                                         onClick={handleClick}>Контакты
