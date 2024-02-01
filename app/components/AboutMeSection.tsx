@@ -82,8 +82,7 @@ const AboutMeSection = () => {
                                 viewport={{once: true}}
                             >
                                 <p className="about_me_section__title">Здравствуйте, меня зовут Олеся Золотарева</p>
-                                <p className="about_me_section__subtitle">Я практикующий нутрициолог, диетолог,
-                                    специалист по модификации образа жизни, натуропат.</p>
+                                <p className="about_me_section__subtitle">Я практикующий нутрициолог, натуропат, специалист по питанию и модификации образа жизни.</p>
                             </motion.div>
                             <ul className="about_me_section__list">
                                 <motion.li

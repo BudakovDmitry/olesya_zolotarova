@@ -62,12 +62,12 @@ const Header = () => {
                                 }}
                             >
                                 <Stack direction="row" spacing={1} sx={{padding: '7px 15px'}}>
-                                    <a href="#" target='_blank' className="nav__popover_link">
+                                    <a href="https://www.instagram.com/olesya_prohealth" target='_blank' className="nav__popover_link">
                                         <IconButton aria-label="delete" size="large">
                                             <InstagramIcon fontSize="inherit" sx={{color: '#252424'}}/>
                                         </IconButton>
                                     </a>
-                                    <a href="#" target='_blank' className="nav__popover_link">
+                                    <a href="https://t.me/olesya_healthcoach" target='_blank' className="nav__popover_link">
                                         <IconButton aria-label="delete" size="large">
                                             <TelegramIcon fontSize="inherit" color='primary'/>
                                         </IconButton>

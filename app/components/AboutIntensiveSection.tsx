@@ -83,7 +83,7 @@ const AboutIntensiveSection = () => {
                     viewport={{once: true}}
                     className="about_intensive_section__description_mobile"
                 >
-                    Как составить рацион питания, который повысит уровень энергии и качеств
+                    Как составить рацион питания, который повысит уровень энергии и качество жизни
                 </motion.p>
                 <motion.p
                     initial={{scale: 1.3, opacity: 0}}

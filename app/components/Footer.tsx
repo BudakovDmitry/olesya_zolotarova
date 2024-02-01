@@ -30,7 +30,7 @@ const Footer = () => {
                     <div className="footer__center">
                         <p className="footer__social_text">Мои соц. сети</p>
                         <div className="footer__social_link_container">
-                            <a href='#' className="footer__social_link instagram">
+                            <a href='https://www.instagram.com/olesya_prohealth' target='_blank' className="footer__social_link instagram">
                                 <svg xmlns="http://www.w3.org/2000/svg" className='footer__social_link_icon' width="18"
                                      height="18" viewBox="0 0 18 18"
                                      fill="none">
@@ -45,7 +45,7 @@ const Footer = () => {
                                         fill="#F3F3F3"/>
                                 </svg>
                             </a>
-                            <a href='#' className="footer__social_link telegram">
+                            <a href='https://t.me/olesya_healthcoach' target='_blank' className="footer__social_link telegram">
                                 <svg xmlns="http://www.w3.org/2000/svg" className='footer__social_link_icon' width="18"
                                      height="16" viewBox="0 0 18 16"
                                      fill="none">
