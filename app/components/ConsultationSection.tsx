@@ -15,10 +15,7 @@ const ConsultationSection = () => {
             >
                 <div className="container consultation_section__container">
                     <div className="consultation_section__text">
-                        <p className="consultation_section__description">Для тех, кто желает персональное сопровождение
-                            в
-                            решении вопросов со здоровьем - записывайтесь ко мне на </p>
-                        <h4 className="consultation_section__title">консультацию</h4>
+                        <p className="consultation_section__description">Также возможен формат <span className='consultation_section__description_bold'>персонального сопровождения</span> в решении вопросов по здоровью</p>
                         <a href="#" className="btn btn__primary consultation_section__link">подробнее</a>
                     </div>
                     <Image src={ConsultationPhoto} alt="Consultation photo" className='consultation_section__photo'

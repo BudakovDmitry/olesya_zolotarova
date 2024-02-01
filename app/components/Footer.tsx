@@ -63,7 +63,7 @@ const Footer = () => {
                                 <path d="M7 16L7 2M7 2L1 8M7 2L13 8" stroke="#252424" strokeWidth="1.5"/>
                             </svg>
                         </a>
-                        <a href="#" className="footer__copyright">© {currentYear} — Budakov Dmytro</a>
+                        <a href="https://budakovdmitry.github.io/my-site-portfolio" target='_blank' className="footer__copyright">© {currentYear} — Budakov Dmytro</a>
                     </div>
                 </div>
             </motion.div>
