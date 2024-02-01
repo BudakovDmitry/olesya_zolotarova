@@ -49,7 +49,7 @@ const TemporaryDrawer = () => {
 
     const list = (anchor: Anchor) => (
         <Box
-            sx={{width: 'auto', padding: '32px 17px 60px 23px', backgroundColor: '#F3F3F3', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
+            sx={{width: 'auto', padding: '32px 17px 0px 23px', backgroundColor: '#F3F3F3', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
             role="presentation"
             onKeyDown={toggleDrawer(anchor, false)}
         >
@@ -86,7 +86,7 @@ const TemporaryDrawer = () => {
                     </Stack>
                 </Popover>
             </ul>
-            <LanguageSwitcher />
+            {/*<LanguageSwitcher />*/}
         </Box>
     );
 

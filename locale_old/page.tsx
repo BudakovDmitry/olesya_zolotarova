@@ -1,18 +1,18 @@
 import {useTranslations} from 'next-intl';
 import {unstable_setRequestLocale, getTranslations} from 'next-intl/server';
 
-import '../styles/main.scss'
+import '../app/styles/main.scss'
 import MainSection from "@/app/components/MainSection";
 import AboutMeSection from "@/app/components/AboutMeSection";
 import WhoIsSuitableSection from "@/app/components/WhoIsSuitableSection";
 import AboutIntensiveSection from "@/app/components/AboutIntensiveSection";
-import ParticipateSection from '../components/ParticipateSection';
+import ParticipateSection from '../app/components/ParticipateSection';
 import StepsIntensiveSection from "@/app/components/StepsIntensiveSection";
-import TariffsSection from '../components/TariffsSection';
-import ReviewsSection from '../components/ReviewsSection';
+import TariffsSection from '../app/components/TariffsSection';
+import ReviewsSection from '../app/components/ReviewsSection';
 import ConsultationSection from "@/app/components/ConsultationSection";
 import Footer from "@/app/components/Footer";
-import Header from '../components/Header';
+import Header from '../app/components/Header';
 import StatisticsSection from "@/app/components/StatisticsSection";
 
 

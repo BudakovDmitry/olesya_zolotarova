@@ -75,7 +75,7 @@ const Header = () => {
                                 </Stack>
                             </Popover>
                         </ul>
-                        <LanguageSwitcher/>
+                        {/*<LanguageSwitcher/>*/}
                     </nav>
                     <div className="header__drawer">
                         <Drawer/>

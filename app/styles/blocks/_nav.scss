@@ -7,6 +7,9 @@
     }
     &_item {
       margin: 0 50px;
+      &:last-child {
+        margin: 0 0 0 50px
+      }
       &_mobile {
         text-align: center;
         margin-bottom: 20px;
