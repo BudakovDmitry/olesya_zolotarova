@@ -1,0 +1,33 @@
+.btn_consultations {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  font-family: $font-family-primary;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.2s ease-out;
+
+  &__primary {
+    background-color: $color-black;
+    color: #FFFFFF;
+
+    &:hover {
+      box-shadow: 0 7px 7px 0 rgba(0,0,0,0.2);
+    }
+  }
+
+  &__secondary {
+    background-color: #EBEBEB;
+    color: $color-black;
+
+    &:hover {
+      background-color: #d7d6d6;
+    }
+  }
+}

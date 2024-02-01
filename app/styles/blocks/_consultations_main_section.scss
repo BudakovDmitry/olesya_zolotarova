@@ -1,0 +1,38 @@
+.consultations_main_section {
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__content {
+    text-align: center;
+  }
+  &__title {
+    font-size: 50px;
+    text-align: center;
+    color: $color-black;
+    font-family: $font-family-fourth;
+    font-weight: 700;
+    &_container {
+      margin-bottom: 40px;
+      min-height: 75px;
+    }
+  }
+  &__description {
+    font-size: 24px;
+    text-align: center;
+    font-family: $font-family-fourth;
+    color: #888888;
+    max-width: 50%;
+    margin: 0 auto 40px;
+  }
+  &__buttons {
+    &_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__link {
+    margin: 0 10px
+  }
+}
