@@ -140,7 +140,7 @@ const TariffsSection = () => {
                             <div className="tariffs_section__card_price tariffs_section__card_price_first"><span
                                 className='tariffs_section__card_price_number'>1111</span> <span
                                 className='tariffs_section__card_price_сurrency'>₴</span></div>
-                            <a href="#" className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
+                            <a href="https://t.me/olesya_healthcoach" target='_blank' className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
                         </div>
                         <div className="tariffs_section__card">
                             <h4 className="tariffs_section__card_title">Premium</h4>
@@ -246,7 +246,7 @@ const TariffsSection = () => {
                             <div className="tariffs_section__card_price tariffs_section__card_price_second"><span
                                 className='tariffs_section__card_price_number'>5444</span> <span
                                 className='tariffs_section__card_price_сurrency'>₴</span></div>
-                            <a href="#" className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
+                            <a href="https://t.me/olesya_healthcoach" target='_blank' className="btn btn__secondary tariffs_section__card_link">Учавстовать</a>
                         </div>
                     </div>
                 </motion.div>
