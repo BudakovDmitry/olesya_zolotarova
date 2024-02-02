@@ -3,6 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  &__bg {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    opacity: 0.05;
+    z-index: -1;
+  }
   &__content {
     text-align: center;
   }
@@ -24,6 +32,7 @@
     color: #888888;
     max-width: 50%;
     margin: 0 auto 40px;
+    font-weight: 500;
   }
   &__buttons {
     &_container {

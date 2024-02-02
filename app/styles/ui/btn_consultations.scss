@@ -23,8 +23,9 @@
   }
 
   &__secondary {
-    background-color: #EBEBEB;
+    background-color: #F3F3F3;
     color: $color-primary;
+    border: 2px solid $color-primary;
 
     &:hover {
       box-shadow: 0 7px 7px 0 rgba(73, 110, 13, 0.2);
