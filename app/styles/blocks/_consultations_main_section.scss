@@ -15,14 +15,14 @@
     text-align: center;
   }
   &__title {
-    font-size: 70px;
+    font-size: 120px;
     text-align: center;
     color: $color-black;
     font-family: $font-family-secondary;
     font-weight: 500;
     &_container {
       margin-bottom: 40px;
-      min-height: 75px;
+      min-height: 180px;
     }
   }
   &__description {

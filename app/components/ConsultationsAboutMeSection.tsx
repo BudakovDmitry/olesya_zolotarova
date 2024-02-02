@@ -6,8 +6,7 @@ const ConsultationsAboutMeSection = () => {
                 <div className="consultations_about_me_section__content">
                     <p className="consultations_about_me_section__text">Окончила институт интегральной
                         превентивной и антивозрастной
-                        медицины preventage.
-                        член ассоциации специалистов
+                        медицины preventage. Член ассоциации специалистов
                         образовательной и функциональной медицины.</p>
                     <p className="consultations_about_me_section__text">300+ часов дополнительных лекций и вебинаров от передовых
                         интегративных врачей.</p>
