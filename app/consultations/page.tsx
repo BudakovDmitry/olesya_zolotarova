@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { ReactTyped } from "react-typed";
 import ConsultationsMainSection from "@/app/components/ConsultationsMainSection";
+import ConsultationsAboutMeSection from "@/app/components/ConsultationsAboutMeSection";
 
 const navigationItems = [
     {
@@ -17,6 +18,7 @@ const Consultations = () => {
             {/*<Header navigationItems={navigationItems} />*/}
             <main className='main'>
                 <ConsultationsMainSection />
+                <ConsultationsAboutMeSection />
             </main>
             {/*<Footer />*/}
         </>

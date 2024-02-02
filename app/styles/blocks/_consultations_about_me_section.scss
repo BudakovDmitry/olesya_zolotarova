@@ -1,0 +1,29 @@
+.consultations_about_me_section {
+  height: 750px;
+  &__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__photo {
+    &_container {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      background: url("../../../public/consultations_main_photo.jpg") 0 -300px / cover no-repeat;
+      flex: 0 0 55%;
+      max-width: 55%;
+      margin: 0 50px 0 -100px;
+    }
+  }
+  &__content {
+
+  }
+  &__text {
+    font-size: 22px;
+    color: #888888;
+    font-family: $font-family-primary;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+  }
+}
