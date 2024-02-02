@@ -1,6 +1,6 @@
 .btn_consultations {
   display: flex;
-  width: 150px;
+  width: 120px;
   height: 40px;
   padding: 10px;
   justify-content: center;
@@ -14,20 +14,20 @@
   transition: all 0.2s ease-out;
 
   &__primary {
-    background-color: $color-black;
+    background-color: $color-primary;
     color: #FFFFFF;
 
     &:hover {
-      box-shadow: 0 7px 7px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 7px 7px 0 rgba(73, 110, 13, 0.2);
     }
   }
 
   &__secondary {
     background-color: #EBEBEB;
-    color: $color-black;
+    color: $color-primary;
 
     &:hover {
-      background-color: #d7d6d6;
+      box-shadow: 0 7px 7px 0 rgba(73, 110, 13, 0.2);
     }
   }
 }

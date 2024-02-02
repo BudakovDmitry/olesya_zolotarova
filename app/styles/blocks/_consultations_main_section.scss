@@ -7,11 +7,11 @@
     text-align: center;
   }
   &__title {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     color: $color-black;
-    font-family: $font-family-fourth;
-    font-weight: 700;
+    font-family: $font-family-secondary;
+    font-weight: 500;
     &_container {
       margin-bottom: 40px;
       min-height: 75px;
@@ -20,7 +20,7 @@
   &__description {
     font-size: 24px;
     text-align: center;
-    font-family: $font-family-fourth;
+    font-family: $font-family-primary;
     color: #888888;
     max-width: 50%;
     margin: 0 auto 40px;
