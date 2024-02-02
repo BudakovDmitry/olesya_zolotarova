@@ -1,0 +1,32 @@
+.consultations_list_section {
+  &__container {
+    padding: 100px 0;
+  }
+  &__title {
+    font-size: 58px;
+    color: $color-black;
+    font-family: $font-family-secondary;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  &__list {
+    list-style: none;
+    padding: 0;
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      &_text {
+        flex: 0 0 45%;
+        max-width: 45%;
+        &:nth-child(1) {
+          text-align: end;
+        }
+      }
+      &_icon {
+        margin: 0 20px;
+      }
+    }
+  }
+}

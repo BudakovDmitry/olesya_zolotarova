@@ -1,0 +1,17 @@
+.consultations_appointment {
+  height: 300px;
+  &__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    max-width: 35%;
+    text-align: center;
+    font-size: 24px;
+    font-family: $font-family-primary;
+    color: #888888;
+    font-weight: 500;
+  }
+}
