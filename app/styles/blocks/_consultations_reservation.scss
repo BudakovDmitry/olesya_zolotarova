@@ -1,5 +1,8 @@
 .consultations_reservation {
-  height: 400px;
+  height: 250px;
+  @include media-breakpoint-up(xl) {
+    height: 400px;
+  }
   &__container {
     height: 100%;
     display: flex;
@@ -8,13 +11,16 @@
     justify-content: center;
   }
   &__text {
-    max-width: 45%;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-family: $font-family-primary;
     color: $color-black;
     font-weight: 700;
     margin-bottom: 40px;
+    @include media-breakpoint-up(xl) {
+      max-width: 45%;
+      font-size: 24px;
+    }
   }
   &__buttons {
     &_container {

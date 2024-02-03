@@ -1,29 +1,48 @@
 .consultations_about_me_section {
-  height: 750px;
+  height: 850px;
+  @include media-breakpoint-up(xl) {
+    height: 750px;
+  }
   &__container {
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    @include media-breakpoint-up(xl) {
+      flex-direction: row;
+      align-items: center;
+    }
   }
   &__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    @include media-breakpoint-up(xl) {
+      display: none;
+    }
     &_container {
-      width: 50%;
-      height: 100%;
       position: relative;
-      background: url("../../../public/consultations_main_photo.jpg") 0 -300px / cover no-repeat;
-      flex: 0 0 55%;
-      max-width: 55%;
-      margin: 0 50px 0 -100px;
+      background: none;
+      margin-bottom: 40px;
+      @include media-breakpoint-up(xl) {
+        height: 100%;
+        flex: 0 0 55%;
+        max-width: 55%;
+        margin: 0 50px 0 -100px;
+        background: url("../../../public/consultations_main_photo.jpg") 0 -300px / cover no-repeat;
+      }
     }
   }
   &__content {
 
   }
   &__text {
-    font-size: 22px;
+    font-size: 16px;
     color: #888888;
     font-family: $font-family-primary;
     line-height: 1.5em;
     margin-bottom: 50px;
+    @include media-breakpoint-up(xl) {
+      font-size: 22px;
+    }
   }
 }
