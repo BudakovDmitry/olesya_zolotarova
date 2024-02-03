@@ -9,10 +9,10 @@ const ConsultationsReservation = () => {
                     консультацию напишите в
                     удобный для вас мессенджер</p>
                 <div className="consultations_reservation__buttons_container">
-                    <a href="#" className="btn_consultations btn_consultations__primary consultations_reservation__link">
+                    <a href="https://www.instagram.com/olesya_prohealth" target='_blank' className="btn_consultations btn_consultations__primary consultations_reservation__link">
                         <InstagramIcon fontSize='small' sx={{color: '#FFFFFF'}}/>
                         Instagram</a>
-                    <a href="#" className="btn_consultations btn_consultations__secondary consultations_reservation__link">
+                    <a href="https://t.me/olesya_healthcoach" target='_blank' className="btn_consultations btn_consultations__secondary consultations_reservation__link">
                         <TelegramIcon fontSize='small' sx={{color: '#496E0D'}} />
                         Telegram</a>
                 </div>

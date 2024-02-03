@@ -5,7 +5,7 @@ import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const ConsultationsTariffs = () => {
     return (
-        <section className="consultations_tariffs">
+        <section id='consultations_tariffs' className="consultations_tariffs">
             <div className="consultations_tariffs__container container">
                 <motion.div
                     initial={{y: 300, opacity: 0}}
@@ -32,7 +32,7 @@ const ConsultationsTariffs = () => {
                             sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в чате 1 месяц после консультации
                         </li>
                     </ul>
-                    <a href="#"
+                    <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
                 </motion.div>
                 <motion.div
@@ -57,7 +57,7 @@ const ConsultationsTariffs = () => {
                             нутрицевтикам на 2-3 месяца
                         </li>
                     </ul>
-                    <a href="#"
+                    <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
                 </motion.div>
                 <motion.div
@@ -89,7 +89,7 @@ const ConsultationsTariffs = () => {
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
                         </li>
                     </ul>
-                    <a href="#"
+                    <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
                 </motion.div>
                 <motion.div
@@ -121,7 +121,7 @@ const ConsultationsTariffs = () => {
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы/ рациона
                         </li>
                     </ul>
-                    <a href="#"
+                    <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
                 </motion.div>
             </div>

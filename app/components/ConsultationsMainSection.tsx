@@ -37,9 +37,9 @@ const ConsultationsMainSection = () => {
                     viewport={{once: true}}
                     className="consultations_main_section__buttons_container"
                 >
-                    <a href="#"
+                    <a href="#consultations_tariffs"
                        className="btn_consultations btn_consultations__primary consultations_main_section__link">Записаться</a>
-                    <a href="#"
+                    <a href="#consultations_list_section"
                        className="btn_consultations btn_consultations__secondary consultations_main_section__link">Подробнее</a>
                 </motion.div>
             </div>

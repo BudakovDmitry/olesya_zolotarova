@@ -6,7 +6,7 @@ import ListMarker from "@/public/list_marker.png";
 
 const ConsultationsListSection = () => {
     return (
-        <section className="consultations_list_section">
+        <section id="consultations_list_section" className="consultations_list_section">
             <div className="consultations_list_section__container container">
                 <motion.h2
                     initial={{opacity: 0}}
