@@ -38,7 +38,7 @@ const ConsultationsTariffs = () => {
                 <motion.div
                     initial={{y: 300, opacity: 0}}
                     whileInView={{y: 0, opacity: 1}}
-                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 0.5}}
+                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 0.25}}
                     viewport={{once: true}}
                     className='consultations_tariffs__card'
                 >
@@ -63,7 +63,7 @@ const ConsultationsTariffs = () => {
                 <motion.div
                     initial={{y: 300, opacity: 0}}
                     whileInView={{y: 0, opacity: 1}}
-                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 1}}
+                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 0.5}}
                     viewport={{once: true}}
                     className='consultations_tariffs__card'
                 >
@@ -95,7 +95,7 @@ const ConsultationsTariffs = () => {
                 <motion.div
                     initial={{y: 300, opacity: 0}}
                     whileInView={{y: 0, opacity: 1}}
-                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 1.5}}
+                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 0.75}}
                     viewport={{once: true}}
                     className='consultations_tariffs__card'
                 >
