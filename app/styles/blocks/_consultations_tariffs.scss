@@ -3,11 +3,19 @@
     margin-bottom: 100px;
   }
   &__container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: none;
     @include media-breakpoint-up(xl) {
+      display: flex;
+      justify-content: space-between;
       flex-direction: row;
+    }
+    &_mobile {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
     }
   }
   &__card {
