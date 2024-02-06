@@ -3,6 +3,7 @@
 import {motion} from "framer-motion"
 import Image from "next/image";
 import MainPhoto from "@/public/main_photo.jpg";
+import MainPhotoMobile from "@/public/main_photo_mobile_new.jpg";
 
 const MainSection = () => {
     return (
@@ -14,6 +15,7 @@ const MainSection = () => {
         >
             <section className='main_section'>
                 <Image src={MainPhoto} alt="Main photo" className='main_section__photo' priority={true} unoptimized/>
+                <Image src={MainPhotoMobile} alt="Main photo" className='main_section__photo_mobile' priority={true} unoptimized/>
                 <div className="main_section__content container">
                     <div className="main_section__content_container">
                         <h2 className='main_section__subtitle'>Интенсив</h2>

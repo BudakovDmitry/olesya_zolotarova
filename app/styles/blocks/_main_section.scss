@@ -1,11 +1,12 @@
 .main_section {
   height: 760px;
-  background: url("../../../public/main_photo_mobile.jpg") 0 0/100% auto no-repeat;
+  //background: url("../../../public/main_photo_mobile_new.jpg") 0 0/100% auto no-repeat;
   position: relative;
   display: flex;
   align-items: flex-start;
+  background: #C1C7C5;
+  overflow: hidden;
   @include media-breakpoint-up(xl) {
-    background: #C1C7C5;
     height: 810px;
     align-items: center;
   }
@@ -30,9 +31,15 @@
       position: absolute;
       top: 0;
       right: 0;
+      width: auto;
+      height: auto;
     }
     
     &_mobile {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: auto;
       @include media-breakpoint-up(xl) {
         display: none;
       }
