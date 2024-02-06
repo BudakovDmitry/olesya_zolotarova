@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 export async function generateMetadata() {
     return {
-        title: 'Олеся Золотарева - ПЕРЕЗАВАНТАЖЕННЯ',
+        title: 'Олеся Золотарева - ПЕРЕЗАГРУЗКА',
         description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
         openGraph: {
-            title: 'Олеся Золотарева - ПЕРЕЗАВАНТАЖЕННЯ',
+            title: 'Олеся Золотарева - ПЕРЕЗАГРУЗКА',
             description: 'Перезагрузите свои привычки и питание со мной всего за 10 дней',
             images: ['/main_photo.jpg']
         }
