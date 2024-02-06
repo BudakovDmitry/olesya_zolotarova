@@ -1,5 +1,5 @@
 .consultations_about_me_section {
-  height: 850px;
+  height: 930px;
   @include media-breakpoint-up(xl) {
     height: 750px;
   }
@@ -34,6 +34,17 @@
   }
   &__content {
 
+  }
+  &__title {
+    font-size: 24px;
+    color: $color-black;
+    font-family: $font-family-secondary;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    font-weight: 600;
+    @include media-breakpoint-up(xl) {
+      font-size: 28px;
+    }
   }
   &__text {
     font-size: 16px;

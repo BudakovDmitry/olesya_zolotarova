@@ -25,7 +25,7 @@ const Consultations = () => {
                 <ConsultationsAboutMeSection />
                 <ConsultationsListSection />
                 <ConsultationsTariffs />
-                <ConsultationsAppointment />
+                {/*<ConsultationsAppointment />*/}
                 <ConsultationsReservation />
             </main>
             {/*<Footer />*/}

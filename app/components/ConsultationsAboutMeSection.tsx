@@ -11,7 +11,7 @@ const ConsultationsAboutMeSection = () => {
             <motion.div
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
-                transition={{ease: "easeOut", duration: 1, delay: 2}}
+                transition={{ease: "easeOut", duration: 1}}
                 viewport={{once: true}}
                 className="consultations_about_me_section__container container"
             >
@@ -20,6 +20,7 @@ const ConsultationsAboutMeSection = () => {
                            className='consultations_about_me_section__photo' priority={true} unoptimized/>
                 </div>
                 <div className="consultations_about_me_section__content">
+                    <h3 className='consultations_about_me_section__title'>Образование</h3>
                     <p className="consultations_about_me_section__text">Окончила институт интегральной
                         превентивной и антивозрастной
                         медицины preventage. Член ассоциации специалистов

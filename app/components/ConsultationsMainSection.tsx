@@ -23,7 +23,7 @@ const ConsultationsMainSection = () => {
                 <motion.p
                     initial={{y: 300, opacity: 0}}
                     whileInView={{y: 0, opacity: 1}}
-                    transition={{type: "spring", bounce: 0.4, duration: 1.5, delay: 2.5}}
+                    transition={{type: "spring", bounce: 0.4, duration: 1}}
                     viewport={{once: true}}
                     className='consultations_main_section__description'
                 >
@@ -33,7 +33,7 @@ const ConsultationsMainSection = () => {
                 <motion.div
                     initial={{opacity: 0}}
                     whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1, delay: 3.5}}
+                    transition={{ease: "easeOut", duration: 1}}
                     viewport={{once: true}}
                     className="consultations_main_section__buttons_container"
                 >
