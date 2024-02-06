@@ -11,6 +11,7 @@ import Stack from "@mui/material/Stack";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import {MouseEvent, useState} from "react";
+import Link from "next/link";
 
 type Anchor = 'top';
 
@@ -57,7 +58,7 @@ const TemporaryDrawer = () => {
                 <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#about_me" onClick={toggleDrawer(anchor, false)}>Обо мне</a></li>
                 <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#about_intensive" onClick={toggleDrawer(anchor, false)}>Про интенсив</a></li>
                 <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="#tariffs" onClick={toggleDrawer(anchor, false)}>Тарифы</a></li>
-                <li className='nav__list_item_mobile'><a className='nav__list_link_mobile' href="/consultations" onClick={toggleDrawer(anchor, false)}>Консультации</a></li>
+                <li className='nav__list_item_mobile'><Link className='nav__list_link_mobile' href="/consultations" onClick={toggleDrawer(anchor, false)}>Консультации</Link></li>
                 <li className='nav__list_item_mobile'><button className='nav__list_link_mobile' aria-describedby={id} onClick={(e) => handleClick(e, anchor)}>Контакты</button></li>
                 <Popover
                     id={id}

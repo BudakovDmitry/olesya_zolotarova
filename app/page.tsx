@@ -25,10 +25,6 @@ const navigationItems = [
         title: 'Тарифы',
         link: '#tariffs'
     },
-    {
-        title: 'Консультации',
-        link: '/consultations'
-    },
 ]
 
 const Home = () => {

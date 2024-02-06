@@ -9,6 +9,7 @@ import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import Link from "next/link";
 
 const Header = ({navigationItems}: any) => {
     const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
@@ -36,7 +37,9 @@ const Header = ({navigationItems}: any) => {
                     <div className="header__logo"><a className='header__logo_link' href="#">Олеся Золотарева</a></div>
                     <nav className='header__nav nav'>
                         <ul className='nav__list'>
-                            {navigationItems.map((item: any) => <li key={item.link} className='nav__list_item'><a className='nav__list_link' href={item.link}>{item.title}</a></li>)}
+                            {navigationItems.map((item: any) => <li key={item.link} className='nav__list_item'><a
+                                className='nav__list_link' href={item.link}>{item.title}</a></li>)}
+                            <li className='nav__list_item'><Link className='nav__list_link' href='/consultations'>Консультации</Link></li>
                             <li className='nav__list_item'>
                                 <button className='nav__list_link' aria-describedby={id}
                                         onClick={handleClick}>Контакты
@@ -57,12 +60,14 @@ const Header = ({navigationItems}: any) => {
                                 }}
                             >
                                 <Stack direction="row" spacing={1} sx={{padding: '7px 15px'}}>
-                                    <a href="https://www.instagram.com/olesya_prohealth" target='_blank' className="nav__popover_link">
+                                    <a href="https://www.instagram.com/olesya_prohealth" target='_blank'
+                                       className="nav__popover_link">
                                         <IconButton aria-label="delete" size="large">
                                             <InstagramIcon fontSize="inherit" sx={{color: '#252424'}}/>
                                         </IconButton>
                                     </a>
-                                    <a href="https://t.me/olesya_healthcoach" target='_blank' className="nav__popover_link">
+                                    <a href="https://t.me/olesya_healthcoach" target='_blank'
+                                       className="nav__popover_link">
                                         <IconButton aria-label="delete" size="large">
                                             <TelegramIcon fontSize="inherit" color='primary'/>
                                         </IconButton>
