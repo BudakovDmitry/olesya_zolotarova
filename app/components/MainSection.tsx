@@ -10,7 +10,7 @@ const MainSection = () => {
         <motion.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{ease: "easeOut", duration: 1}}
+            transition={{ease: "easeOut", duration: 2}}
             viewport={{once: true}}
         >
             <section className='main_section'>
@@ -18,7 +18,7 @@ const MainSection = () => {
                 <motion.div
                     initial={{opacity: 0}}
                     whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1}}
+                    transition={{ease: "easeOut", duration: 3}}
                     viewport={{once: true}}
                 >
                     <Image src={MainPhotoMobile} alt="Main photo" className='main_section__photo_mobile' priority={true}
