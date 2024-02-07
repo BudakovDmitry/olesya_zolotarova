@@ -23,7 +23,7 @@ const ConsultationsAboutMeSection = () => {
                     <h3 className='consultations_about_me_section__title'>Образование</h3>
                     <p className="consultations_about_me_section__text">Окончила институт интегральной
                         превентивной и антивозрастной
-                        медицины preventage. Член ассоциации специалистов
+                        медицины Preventage. Член ассоциации специалистов
                         образовательной и функциональной медицины.</p>
                     <p className="consultations_about_me_section__text">300+ часов дополнительных лекций и вебинаров
                         от передовых

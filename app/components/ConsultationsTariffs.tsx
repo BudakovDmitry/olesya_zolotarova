@@ -118,7 +118,7 @@ const ConsultationsTariffs = () => {
                             (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы/ рациона
+                            sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
                         </li>
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'
@@ -237,7 +237,7 @@ const ConsultationsTariffs = () => {
                             (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы/ рациона
+                            sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
                         </li>
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'

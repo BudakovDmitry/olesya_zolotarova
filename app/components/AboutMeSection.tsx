@@ -106,7 +106,18 @@ const AboutMeSection = () => {
                                 >
                                     <Image src={ListMarker} alt="List marker"
                                            className='about_me_section__list_item_icon' unoptimized/>
-                                    <span className='about_me_section__list_item_text'>Меняю пищевые привычки; научу как стать стройной и удержать вес</span>
+                                    <span className='about_me_section__list_item_text'>Меняю пищевые привычки</span>
+                                </motion.li>
+                                <motion.li
+                                    initial={{x: 700, opacity: 0}}
+                                    whileInView={{x: 0, opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                    className="about_me_section__list_item"
+                                >
+                                    <Image src={ListMarker} alt="List marker"
+                                           className='about_me_section__list_item_icon' unoptimized/>
+                                    <span className='about_me_section__list_item_text'>Научу как стать стройной и удержать вес</span>
                                 </motion.li>
                                 <motion.li
                                     initial={{x: 700, opacity: 0}}
@@ -153,7 +164,18 @@ const AboutMeSection = () => {
                                 >
                                     <Image src={ListMarker} alt="List marker"
                                            className='about_me_section__list_mobile_item_icon' unoptimized/>
-                                    <span className='about_me_section__list_mobile_item_text'>Меняю пищевые привычки; научу как стать стройной и удержать вес</span>
+                                    <span className='about_me_section__list_mobile_item_text'>Меняю пищевые привычки</span>
+                                </motion.li>
+                                <motion.li
+                                    initial={{opacity: 0}}
+                                    whileInView={{opacity: 1}}
+                                    transition={{ease: "easeOut", duration: 1}}
+                                    viewport={{once: true}}
+                                    className="about_me_section__list_mobile_item"
+                                >
+                                    <Image src={ListMarker} alt="List marker"
+                                           className='about_me_section__list_mobile_item_icon' unoptimized/>
+                                    <span className='about_me_section__list_mobile_item_text'>Научу как стать стройной и удержать вес</span>
                                 </motion.li>
                                 <motion.li
                                     initial={{opacity: 0}}
