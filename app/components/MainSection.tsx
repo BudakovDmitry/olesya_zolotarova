@@ -31,7 +31,7 @@ const MainSection = () => {
                             <p className='main_section__description'>Перезагрузите свои привычки и питание со мной всего
                                 за 10 дней</p>
                             <div className="main_section__button_container">
-                                <a href="#tariffs" className='btn btn__primary main_section__button'>Учавствовать</a>
+                                <a href="#tariffs" className='btn btn__primary main_section__button'>Участвовать</a>
                                 <a href="#about_intensive"
                                    className='btn btn__secondary main_section__button main_section__button_more'>подробнее</a>
                             </div>

@@ -126,11 +126,7 @@ const ConsultationsTariffs = () => {
                 </motion.div>
             </div>
             <div className="consultations_tariffs__container_mobile container">
-                <motion.div
-                    initial={{opacity: 0}}
-                    whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1}}
-                    viewport={{once: true}}
+                <div
                     className='consultations_tariffs__card'
                 >
                     <h3 className="consultations_tariffs__card_title">Пакет питания</h3>
@@ -153,12 +149,8 @@ const ConsultationsTariffs = () => {
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
-                </motion.div>
-                <motion.div
-                    initial={{opacity: 0}}
-                    whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1}}
-                    viewport={{once: true}}
+                </div>
+                <div
                     className='consultations_tariffs__card'
                 >
                     <h3 className="consultations_tariffs__card_title">Пакет Lite</h3>
@@ -178,12 +170,8 @@ const ConsultationsTariffs = () => {
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
-                </motion.div>
-                <motion.div
-                    initial={{opacity: 0}}
-                    whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1}}
-                    viewport={{once: true}}
+                </div>
+                <div
                     className='consultations_tariffs__card'
                 >
                     <h3 className="consultations_tariffs__card_title">Standart 1 месяц</h3>
@@ -210,12 +198,8 @@ const ConsultationsTariffs = () => {
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
-                </motion.div>
-                <motion.div
-                    initial={{opacity: 0}}
-                    whileInView={{opacity: 1}}
-                    transition={{ease: "easeOut", duration: 1}}
-                    viewport={{once: true}}
+                </div>
+                <div
                     className='consultations_tariffs__card'
                 >
                     <h3 className="consultations_tariffs__card_title">Premium 3 месяца</h3>
@@ -242,7 +226,7 @@ const ConsultationsTariffs = () => {
                     </ul>
                     <a href="https://t.me/olesya_healthcoach" target='_blank'
                        className="btn_consultations btn_consultations__primary consultations_tariffs__card_link">Записаться</a>
-                </motion.div>
+                </div>
             </div>
         </section>
     )
