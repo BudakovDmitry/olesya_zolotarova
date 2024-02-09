@@ -23,7 +23,7 @@ const ParticipateSection = () => {
                     transition={{ease: "easeOut", duration: 1}}
                     viewport={{once: true}}
                 >
-                    <a href="#tariffs" className="btn--big btn__primary participate_section__btn">Учавстовать</a>
+                    <a href="#tariffs" className="btn--big btn__primary participate_section__btn">Участвовать</a>
                 </motion.div>
             </div>
         </section>
