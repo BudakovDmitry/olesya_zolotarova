@@ -1,0 +1,13 @@
+.consultations_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  &__link {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $font-family-primary;
+    color: $color-black;
+  }
+}

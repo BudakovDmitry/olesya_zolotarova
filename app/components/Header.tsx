@@ -34,7 +34,7 @@ const Header = ({navigationItems}: any) => {
                 viewport={{once: true}}
             >
                 <div className='container header__container'>
-                    <div className="header__logo"><a className='header__logo_link' href="#">Олеся Золотарева</a></div>
+                    <div className="header__logo"><a className='header__logo_link' href="https://olesyazolotareva.com.ua/">Олеся Золотарева</a></div>
                     <nav className='header__nav nav'>
                         <ul className='nav__list'>
                             {navigationItems.map((item: any) => <li key={item.link} className='nav__list_item'><a

@@ -8,6 +8,7 @@ import ConsultationsListSection from "@/app/components/ConsultationsListSection"
 import ConsultationsTariffs from "@/app/components/ConsultationsTariffs";
 import ConsultationsAppointment from "@/app/components/ConsultationsAppointment";
 import ConsultationsReservation from "@/app/components/ConsultationsReservation";
+import ConsultationsFooter from "@/app/components/ConsultationsFooter";
 
 const navigationItems = [
     {
@@ -27,6 +28,7 @@ const Consultations = () => {
                 <ConsultationsTariffs />
                 {/*<ConsultationsAppointment />*/}
                 <ConsultationsReservation />
+                <ConsultationsFooter />
             </main>
             {/*<Footer />*/}
         </>
