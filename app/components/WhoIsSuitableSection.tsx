@@ -69,7 +69,7 @@ const WhoIsSuitableSection = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <p className="who_is_suitable_section__grid_item_text">Тем, кто хочет научится вкусно и
+                            <p className="who_is_suitable_section__grid_item_text">Тем, кто хочет научиться вкусно и
                                 полезно питаться, передавая своим детям правильные пищевые привычки</p>
                         </div>
                         <div className="who_is_suitable_section__grid_item second">

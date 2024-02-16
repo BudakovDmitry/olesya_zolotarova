@@ -74,7 +74,7 @@ const AboutIntensiveSection = () => {
                     viewport={{once: true}}
                     className="about_intensive_section__description_mobile"
                 >
-                    Как избавится от привычек, убивающих ваше здоровье
+                    Как избавиться от привычек, убивающих ваше здоровье
                 </motion.p>
                 <motion.p
                     initial={{scale: 1.3, opacity: 0}}
