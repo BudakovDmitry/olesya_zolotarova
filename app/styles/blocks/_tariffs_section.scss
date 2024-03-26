@@ -121,17 +121,64 @@
       justify-content: center;
       line-height: 100px;
       align-items: flex-end;
+      position: relative;
+      &.old {
+        margin-bottom: 0;
+        &:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 45%;
+          width: 65%;
+          border-bottom: 5px solid rgb(204, 31, 31);
+          transform: translate(-50%, 0) rotate(10deg);
+          @include media-breakpoint-up(xl) {
+            width: 50%;
+          }
+        }
+      }
+      &.new {
+        &:after {
+          display: none;
+        }
+      }
       &_number {
         line-height: 110px;
         display: inline-block;
-        margin-right: 15px;
+        margin-right: 5px;
+        &.first {
+          .small {
+            font-size: 64px;
+            @include media-breakpoint-up(xl) {
+              font-size: 76px;
+            }
+          }
+        }
       }
 
       &_first {
-        font-size: 100px;
+        font-size: 80px;
+        @include media-breakpoint-up(xl) {
+          font-size: 100px;
+        }
+        &.old {
+          font-size: 40px;
+          .tariffs_section__card_price_сurrency {
+            font-size: 50px;
+          }
+          .small {
+            font-size: 40px;
+          }
+        }
       }
       &_second {
         font-size: 64px;
+        &.old {
+          font-size: 40px;
+          .tariffs_section__card_price_сurrency {
+            font-size: 50px;
+          }
+        }
       }
 
       &_сurrency {
