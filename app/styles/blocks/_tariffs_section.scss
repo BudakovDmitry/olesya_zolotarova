@@ -131,7 +131,7 @@
           bottom: 45%;
           width: 65%;
           border-bottom: 5px solid rgb(204, 31, 31);
-          transform: translate(-50%, 0) rotate(10deg);
+          transform: translate(-50%, 0) rotate(-15deg);
           @include media-breakpoint-up(xl) {
             width: 50%;
           }
