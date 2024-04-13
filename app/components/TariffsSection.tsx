@@ -137,16 +137,16 @@ const TariffsSection = () => {
                                     <p className="tariffs_section__card_list_item_text">Личная консультация
                                         Олеси с разбором анализов и рекомендациями на 2 месяца</p></li>
                             </ul>
-                            <div className="tariffs_section__card_price tariffs_section__card_price_first old"><span
-                                className='tariffs_section__card_price_number first'>2<span
-                                className='small'>8</span></span><span
+                            {/*<div className="tariffs_section__card_price tariffs_section__card_price_first old"><span*/}
+                            {/*    className='tariffs_section__card_price_number first'>2<span*/}
+                            {/*    className='small'>8</span></span><span*/}
+                            {/*    className='tariffs_section__card_price_сurrency'>$/</span> <span*/}
+                            {/*    className='tariffs_section__card_price_number'>1090</span> <span*/}
+                            {/*    className='tariffs_section__card_price_сurrency'>₴</span></div>*/}
+                            <div className="tariffs_section__card_price tariffs_section__card_price_first new"><span
+                                className='tariffs_section__card_price_number first'>28</span><span
                                 className='tariffs_section__card_price_сurrency'>$/</span> <span
                                 className='tariffs_section__card_price_number'>1090</span> <span
-                                className='tariffs_section__card_price_сurrency'>₴</span></div>
-                            <div className="tariffs_section__card_price tariffs_section__card_price_first new"><span
-                                className='tariffs_section__card_price_number first'>23</span><span
-                                className='tariffs_section__card_price_сurrency'>$/</span> <span
-                                className='tariffs_section__card_price_number'>890</span> <span
                                 className='tariffs_section__card_price_сurrency'>₴</span></div>
                             <a href="https://t.me/olesya_healthcoach" target='_blank'
                                className="btn btn__secondary tariffs_section__card_link">Участвовать</a>
@@ -252,15 +252,15 @@ const TariffsSection = () => {
                                     <p className="tariffs_section__card_list_item_text">Личная консультация Олеси с
                                         разбором анализов и рекомендациями на 2 месяца</p></li>
                             </ul>
-                            <div className="tariffs_section__card_price tariffs_section__card_price_second old"><span
+                            {/*<div className="tariffs_section__card_price tariffs_section__card_price_second old"><span*/}
+                            {/*    className='tariffs_section__card_price_number first'>140</span><span*/}
+                            {/*    className='tariffs_section__card_price_сurrency'>$/</span> <span*/}
+                            {/*    className='tariffs_section__card_price_number'>5450</span> <span*/}
+                            {/*    className='tariffs_section__card_price_сurrency'>₴</span></div>*/}
+                            <div className="tariffs_section__card_price tariffs_section__card_price_second new"><span
                                 className='tariffs_section__card_price_number first'>140</span><span
                                 className='tariffs_section__card_price_сurrency'>$/</span> <span
                                 className='tariffs_section__card_price_number'>5450</span> <span
-                                className='tariffs_section__card_price_сurrency'>₴</span></div>
-                            <div className="tariffs_section__card_price tariffs_section__card_price_second new"><span
-                                className='tariffs_section__card_price_number first'>130</span><span
-                                className='tariffs_section__card_price_сurrency'>$/</span> <span
-                                className='tariffs_section__card_price_number'>5090</span> <span
                                 className='tariffs_section__card_price_сurrency'>₴</span></div>
                             <a href="https://t.me/olesya_healthcoach" target='_blank'
                                className="btn btn__secondary tariffs_section__card_link">Участвовать</a>
