@@ -69,7 +69,7 @@ const ConsultationsTariffs = () => {
                 >
                     <h3 className="consultations_tariffs__card_title">Standart 1 месяц</h3>
                     <p className="consultations_tariffs__card_price"><span
-                        className="consultations_tariffs__card_price_strong">200</span> $</p>
+                        className="consultations_tariffs__card_price_strong">220</span> $</p>
                     <ul className="consultations_tariffs__card_list">
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Видео консультация 1 час онлайн
@@ -82,8 +82,8 @@ const ConsultationsTariffs = () => {
                             нутрицевтикам
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение 1 месяц в личном чате в Телеграмм
-                            (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
+                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 1 месяц (отвечаю на вопросы с 8.00 до 20.00
+                            ежедневно, контроль состояния один раз в неделю)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
@@ -101,7 +101,7 @@ const ConsultationsTariffs = () => {
                 >
                     <h3 className="consultations_tariffs__card_title">Premium 3 месяца</h3>
                     <p className="consultations_tariffs__card_price"><span
-                        className="consultations_tariffs__card_price_strong">490</span> $</p>
+                        className="consultations_tariffs__card_price_strong">540</span> $</p>
                     <ul className="consultations_tariffs__card_list">
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Видео консультация 1 час онлайн
@@ -114,8 +114,8 @@ const ConsultationsTariffs = () => {
                             нутрицевтикам
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 3 месяца
-                            (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
+                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 3 месяца (отвечаю на вопросы с 8.00 до 20.00
+                            ежедневно, контроль состояния один раз в неделю)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
@@ -176,7 +176,7 @@ const ConsultationsTariffs = () => {
                 >
                     <h3 className="consultations_tariffs__card_title">Standart 1 месяц</h3>
                     <p className="consultations_tariffs__card_price"><span
-                        className="consultations_tariffs__card_price_strong">200</span> $</p>
+                        className="consultations_tariffs__card_price_strong">220</span> $</p>
                     <ul className="consultations_tariffs__card_list">
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Видео консультация 1 час онлайн
@@ -189,8 +189,8 @@ const ConsultationsTariffs = () => {
                             нутрицевтикам
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение 1 месяц в личном чате в Телеграмм
-                            (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
+                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 1 месяц (отвечаю на вопросы с 8.00 до 20.00
+                            ежедневно, контроль состояния один раз в неделю)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
@@ -204,7 +204,7 @@ const ConsultationsTariffs = () => {
                 >
                     <h3 className="consultations_tariffs__card_title">Premium 3 месяца</h3>
                     <p className="consultations_tariffs__card_price"><span
-                        className="consultations_tariffs__card_price_strong">490</span> $</p>
+                        className="consultations_tariffs__card_price_strong">540</span> $</p>
                     <ul className="consultations_tariffs__card_list">
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Видео консультация 1 час онлайн
@@ -217,8 +217,8 @@ const ConsultationsTariffs = () => {
                             нутрицевтикам
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
-                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 3 месяца
-                            (отвечаю на вопросы с 8.00 до 20.00 ежедневно)
+                            sx={{color: '#496e0D', mr: '10px'}}/>Сопровождение в личном чате в telegram 3 месяца (отвечаю на вопросы с 8.00 до 20.00
+                            ежедневно, контроль состояния один раз в неделю)
                         </li>
                         <li className="consultations_tariffs__card_list_item"><CheckCircleRoundedIcon
                             sx={{color: '#496e0D', mr: '10px'}}/>Контроль и коррекция программы / рациона
